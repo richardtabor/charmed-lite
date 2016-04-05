@@ -1,0 +1,37 @@
+Version: 1.0.5
+
+** Charmed Changelog **
+
+15 February 2016 - Version 1.0.5
+     * Updated feedback class
+     * Updated charmed_retina_logo template tag
+     * Improved retina logo support 
+     * Improved retina Jetpack logo support
+     * Updated languages
+
+02 February 2016 - Version 1.0.4
+     * Loading Animation update
+        - Fixed back button functionality in Safari 
+
+16 January 2016 - Version 1.0.3
+     * Removed contact template
+
+27 December 2015 - Version 1.0.2
+     * Added feedback class
+     	- admin.php
+     	- feedback.php
+    * Updated child theme stylesheet enqueue
+		- functions.php
+	* Updated portfolio meta style
+		- style.css
+		- style-min.css		
+     * Updated languages
+
+17 November 2015 - Version 1.0.1
+     * Hola! Added Spanish translation
+     	- Gracious Richard J. Rodriguez!
+	* Fixed customizer typo 
+		-/inc/customizer/customizer.php
+
+10 November 2015 - Version 1.0.0
+     * Initial release

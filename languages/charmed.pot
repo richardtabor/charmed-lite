@@ -1,0 +1,670 @@
+# Copyright (C) 2016 ThemeBeans
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Charmed 1.0.5\n"
+"Report-Msgid-Bugs-To: http://themebeans.com/\n"
+"POT-Creation-Date: 2015-09-09 22:24:41+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: WP-Translations (http://wp-translations.org/)\n"
+"Language-Team: WP-Translations <wpt@wp-translations.org>\n"
+"X-Generator: grunt-wp-i18n 0.5.3\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:21
+msgid "Go back"
+msgstr ""
+
+#: 404.php:21
+msgid " or "
+msgstr ""
+
+#: 404.php:21
+msgid "go home"
+msgstr ""
+
+#: functions.php:135
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:197
+msgid "Theme Sidebar"
+msgstr ""
+
+#: functions.php:199
+msgid "Appears at the side, under the header."
+msgstr ""
+
+#: functions.php:353
+msgid "Password:"
+msgstr ""
+
+#: functions.php:353
+msgid "Enter password & press enter..."
+msgstr ""
+
+#: functions.php:353
+msgid "Submit"
+msgstr ""
+
+#: header.php:48
+msgid "Navigation"
+msgstr ""
+
+#: header.php:79
+msgid "Powered by %s"
+msgstr ""
+
+#: header.php:83
+msgid "A %s run site. Nice."
+msgstr ""
+
+#: inc/back-compat.php:33 inc/back-compat.php:43 inc/back-compat.php:56
+msgid ""
+"Charmed requires at least WordPress version 4.2. You are running version "
+"%s. Please upgrade and try again."
+msgstr ""
+
+#: inc/customizer/customizer.php:24
+msgid "Site Identity"
+msgstr ""
+
+#: inc/customizer/customizer.php:42
+msgid "Settings"
+msgstr ""
+
+#: inc/customizer/customizer.php:43
+msgid ""
+"Customize various options throughout the theme with the settings within "
+"this panel."
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Portfolio"
+msgstr ""
+
+#: inc/customizer/customizer.php:74 inc/meta/meta-portfolio.php:59
+#: inc/meta/meta-post.php:59
+msgid "Portfolio Settings"
+msgstr ""
+
+#: inc/customizer/customizer.php:75
+msgid ""
+"<a target=\"_blank\" href=\"%1$s\" class=\"button button-secondary\">Get "
+"Access to Portfolio Settings</a>"
+msgstr ""
+
+#: inc/customizer/customizer.php:77
+msgid ""
+"<p>Customize your online portfolio with options to add portfolio sorting, "
+"display a portfolio loop on the single view, and activate gallery lazy "
+"loading and serve a lightbox gallery.</p><ul><li>Portfolio "
+"Sorting</li><li>Lazy Loading Images</li><li>Photoswipe Lightbox "
+"Gallery</li><li>Single Portfolio Loop</li></ul>"
+msgstr ""
+
+#: inc/customizer/customizer.php:87
+msgid "Call to Action"
+msgstr ""
+
+#: inc/customizer/customizer.php:99
+msgid "Call to Action Settings"
+msgstr ""
+
+#: inc/customizer/customizer.php:100
+msgid ""
+"<a target=\"_blank\" href=\"%1$s\" class=\"button button-secondary\">Get "
+"Access to Call to Action Settings</a>"
+msgstr ""
+
+#: inc/customizer/customizer.php:102
+msgid ""
+"<p>Add a call to action <em>(ex: \"Hire Me\")</em> to the single portfolio "
+"view that opens up a contact lead-generation form designed to get you "
+"clients.</p><p>Also input a custom email address that messages will be sent "
+"to and add your own pre-set subject lines.</p><ul><li>Beautiful "
+"CTA</li><li>Customize the CTA Button Text</li><li>Lead Generation "
+"Form</li><li>Custom Subject Lines</li><li>Custom Send-to Email "
+"Address</li></ul>"
+msgstr ""
+
+#: inc/customizer/customizer.php:112
+msgid "Contact"
+msgstr ""
+
+#: inc/customizer/customizer.php:124
+msgid "Contact Form Settings"
+msgstr ""
+
+#: inc/customizer/customizer.php:125
+msgid ""
+"<a target=\"_blank\" href=\"%1$s\" class=\"button button-secondary\">Get "
+"Access to Contact Settings</a>"
+msgstr ""
+
+#: inc/customizer/customizer.php:127
+msgid ""
+"<p>Charmed Pro includes a handy contact template, with custom options for "
+"the recipient email address and a custom button.</p><ul><li>Contact "
+"Template (<a target=\"blank\" "
+"href=\"http://demo.themebeans.com/charmed/contact\">Launch "
+"Demo</a>)</li><li>Customize Recipient Email Address</li><li>Customize Send "
+"Button Text</li></ul>"
+msgstr ""
+
+#: inc/customizer/customizer.php:137
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer/customizer.php:149
+msgid "Powered by Charmed"
+msgstr ""
+
+#: inc/customizer/customizer.php:161
+msgid "A WordPress run site. Nice."
+msgstr ""
+
+#: inc/customizer/customizer.php:171
+msgid "Typography"
+msgstr ""
+
+#: inc/customizer/customizer.php:183
+msgid "Typography Settings"
+msgstr ""
+
+#: inc/customizer/customizer.php:184
+msgid ""
+"<a target=\"_blank\" href=\"%1$s\" class=\"button button-secondary\">Get "
+"Access to Typography Settings</a>"
+msgstr ""
+
+#: inc/customizer/customizer.php:186
+msgid ""
+"<p>You'll have access to 500+ Google Fonts along with font size, line "
+"height, letter spacing, and word spacing settings for each "
+"section:</p><ul><li>Body</li><li>Page Titles</li><li>Page Content</li></ul>"
+msgstr ""
+
+#: inc/customizer/customizer.php:196
+msgid "Colors"
+msgstr ""
+
+#: inc/customizer/customizer.php:208
+msgid "Accent Color"
+msgstr ""
+
+#: inc/customizer/customizer.php:220
+msgid "Advanced Color Settings"
+msgstr ""
+
+#: inc/customizer/customizer.php:221
+msgid ""
+"<a target=\"_blank\" href=\"%1$s\" class=\"button button-secondary\">Get "
+"Access to More Color Settings</a>"
+msgstr ""
+
+#: inc/customizer/customizer.php:223
+msgid ""
+"<p>Fine tune your site design with a number of color customization options "
+"for each section of the theme:</p><ul><li>Backgrounds</li><li>Accent "
+"Colors</li><li>Typography</li><li>Links</li><li>Headers</li><li>CSS3 "
+"Black/White Post Filter</li></ul>"
+msgstr ""
+
+#: inc/customizer/customizer.php:245
+msgid "Logo"
+msgstr ""
+
+#: inc/customizer/customizer.php:258
+msgid "Logo Retina Width"
+msgstr ""
+
+#: inc/customizer/customizer.php:259
+msgid ""
+"This value should be equal to half of the logo image width (in px). For "
+"example, enter \"50\" for a logo that is 100px wide."
+msgstr ""
+
+#: inc/customizer/customizer.php:273
+msgid "Enable retina logo"
+msgstr ""
+
+#: inc/feedback.php:67 inc/feedback2.php:68
+msgid "%s years"
+msgstr ""
+
+#: inc/feedback.php:69 inc/feedback2.php:70
+msgid "a year"
+msgstr ""
+
+#: inc/feedback.php:75 inc/feedback2.php:76
+msgid "%s weeks"
+msgstr ""
+
+#: inc/feedback.php:77 inc/feedback2.php:78
+msgid "a week"
+msgstr ""
+
+#: inc/feedback.php:83 inc/feedback2.php:84
+msgid "%s days"
+msgstr ""
+
+#: inc/feedback.php:85 inc/feedback2.php:86
+msgid "a day"
+msgstr ""
+
+#: inc/feedback.php:91 inc/feedback2.php:92
+msgid "%s hours"
+msgstr ""
+
+#: inc/feedback.php:93 inc/feedback2.php:94
+msgid "an hour"
+msgstr ""
+
+#: inc/feedback.php:99 inc/feedback2.php:100
+msgid "%s minutes"
+msgstr ""
+
+#: inc/feedback.php:101 inc/feedback2.php:102
+msgid "a minute"
+msgstr ""
+
+#: inc/feedback.php:107 inc/feedback2.php:108
+msgid "%s seconds"
+msgstr ""
+
+#: inc/feedback.php:109 inc/feedback2.php:110
+msgid "a second"
+msgstr ""
+
+#: inc/feedback.php:157
+msgid ""
+"Instantly save 30% on Charmed Pro</b> simply by clicking the buy button to "
+"the right!"
+msgstr ""
+
+#: inc/feedback.php:159
+msgid "Buy Charmed Pro"
+msgstr ""
+
+#: inc/feedback.php:160
+msgid "Learn More"
+msgstr ""
+
+#: inc/feedback2.php:159
+msgid "How is it going with the free version of %s?"
+msgstr ""
+
+#: inc/feedback2.php:159
+msgid ""
+"If you're looking for more fantastic options, advanced customization "
+"options, one-click updates and theme support - upgrade to Charmed Pro. "
+"<b>Instantly save 30% ($17 dollars)</b> on your purchase simply by clicking "
+"the link below."
+msgstr ""
+
+#: inc/feedback2.php:160
+msgid "Upgrade to Charmed Pro"
+msgstr ""
+
+#: inc/feedback2.php:161
+msgid "Learn more"
+msgstr ""
+
+#: inc/feedback2.php:162
+msgid "No thanks."
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:26 inc/meta/meta-post.php:26
+msgid "Portfolio Format"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:33 inc/meta/meta-post.php:33
+msgid "Gallery"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:40 inc/meta/meta-post.php:40
+msgid "Video"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:66 inc/meta/meta-post.php:66
+msgid "Gallery Images:"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:67 inc/meta/meta-post.php:67
+msgid "Upload, reorder and caption the post gallery."
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:70 inc/meta/meta-post.php:70
+msgid "Browse & Upload"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:73 inc/meta/meta-post.php:73
+msgid "Date:"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:76 inc/meta/meta-post.php:76
+msgid "Display the date."
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:80 inc/meta/meta-post.php:80
+msgid "Views:"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:83 inc/meta/meta-post.php:83
+msgid "Display the view count."
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:87 inc/meta/meta-post.php:87
+msgid "Categories:"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:90 inc/meta/meta-post.php:90
+msgid "Display the portfolio categories."
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:94 inc/meta/meta-post.php:94
+msgid "Tags:"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:97 inc/meta/meta-post.php:97
+msgid "Display the portfolio tags."
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:101 inc/meta/meta-post.php:101
+msgid "Role:"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:102 inc/meta/meta-post.php:102
+msgid "Display the role."
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:108 inc/meta/meta-post.php:108
+msgid "Client:"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:109 inc/meta/meta-post.php:109
+msgid "Display the client meta."
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:115 inc/meta/meta-post.php:115
+msgid "URL:"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:116 inc/meta/meta-post.php:116
+msgid "Display a URL to link to."
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:122 inc/meta/meta-post.php:122
+msgid "External URL:"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:123 inc/meta/meta-post.php:123
+msgid ""
+"Link this portfolio post to an external URL. For example, link this post to "
+"your Behance portfolio post."
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:140 inc/meta/meta-post.php:140
+msgid "Video Settings"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:146 inc/meta/meta-post.php:146
+msgid "Embed 1:"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:147 inc/meta/meta-portfolio.php:154
+#: inc/meta/meta-portfolio.php:161 inc/meta/meta-portfolio.php:168
+#: inc/meta/meta-post.php:147 inc/meta/meta-post.php:154
+#: inc/meta/meta-post.php:161 inc/meta/meta-post.php:168
+msgid "Insert your embeded code here."
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:153 inc/meta/meta-post.php:153
+msgid "Embed 2:"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:160 inc/meta/meta-post.php:160
+msgid "Embed 3:"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:167 inc/meta/meta-post.php:167
+msgid "Embed 4:"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:174 inc/meta/meta-post.php:174
+msgid "Video Shortcodes:"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:175 inc/meta/meta-post.php:175
+msgid ""
+"Insert any <a target=\"blank\" "
+"href=\"https://codex.wordpress.org/Video_Shortcode\">video shortcodes</a> "
+"here."
+msgstr ""
+
+#: inc/meta/metaboxes.php:75 inc/meta/metaboxes.php:123
+msgid "Insert"
+msgstr ""
+
+#: inc/meta/metaboxes.php:129 inc/meta/metaboxes.php:245
+msgid "Saving..."
+msgstr ""
+
+#: inc/meta/metaboxes.php:185
+msgid "Create Gallery"
+msgstr ""
+
+#: inc/meta/metaboxes.php:192 inc/meta/metaboxes.php:199
+#: inc/meta/metaboxes.php:308 inc/meta/metaboxes.php:310
+msgid "Edit Gallery"
+msgstr ""
+
+#: inc/meta/metaboxes.php:198
+msgid "Cancel"
+msgstr ""
+
+#: inc/meta/metaboxes.php:235
+msgid "Save Gallery"
+msgstr ""
+
+#: inc/meta/metaboxes.php:379
+msgid "Yes, please do"
+msgstr ""
+
+#: inc/upgrade/upgrade.php:45
+msgid ""
+"Thanks for choosing %1$s! Did you know that there's a \"Pro\" version of "
+"%1$s with some astonishingly neat features? %2$sClick here to learn more "
+"about %1$s Pro &rarr;%2$s"
+msgstr ""
+
+#: inc/upgrade/upgrade.php:89
+msgid ""
+"<a href=\"%1$s\" target=\"_blank\">Learn more about %2$s Pro</a> or <a "
+"href=\"%3$s\" target=\"_blank\">upgrade your theme now</a>."
+msgstr ""
+
+#: inc/upgrade/upgrade.php:115
+msgid "Pro"
+msgstr ""
+
+#: inc/widgets/widget-flickr.php:15
+msgid "Flickr Photos"
+msgstr ""
+
+#: inc/widgets/widget-flickr.php:16
+msgid "Add a Flickr feed widget."
+msgstr ""
+
+#: inc/widgets/widget-flickr.php:104
+msgid "Title / Intro:"
+msgstr ""
+
+#: inc/widgets/widget-flickr.php:113
+msgid "Flickr ID:"
+msgstr ""
+
+#: inc/widgets/widget-flickr.php:118
+msgid "Type:"
+msgstr ""
+
+#: inc/widgets/widget-flickr.php:126
+msgid "Display:"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-menu.php:15
+msgid "Portfolio Menu"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-menu.php:16
+msgid "A custom loop of portfolio posts."
+msgstr ""
+
+#: inc/widgets/widget-portfolio-menu.php:69
+msgid "Permanent Link to %s"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-menu.php:113
+msgid ""
+"Please download & install the <b>Bean Portfolio</b> WordPress plugin to "
+"properly display this widget."
+msgstr ""
+
+#: inc/widgets/widget-portfolio-menu.php:114
+msgid "Bean Portfolio &rarr;"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-menu.php:119 inc/widgets/widget-video.php:73
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-menu.php:128
+msgid "Number of Posts: (-1 for Infinite)"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-menu.php:133
+msgid "Portfolio Loop:"
+msgstr ""
+
+#: inc/widgets/widget-video.php:15
+msgid "Embedded Video"
+msgstr ""
+
+#: inc/widgets/widget-video.php:16
+msgid "Displays embedded video content."
+msgstr ""
+
+#: inc/widgets/widget-video.php:82
+msgid "Video Embed Code:"
+msgstr ""
+
+#: template-parts/contact-form.php:66
+msgid "Your message was sent. Thanks."
+msgstr ""
+
+#: template-parts/contact-form.php:74
+msgid "An error occured. Try again."
+msgstr ""
+
+#: template-parts/contact-form.php:84
+msgid "Name "
+msgstr ""
+
+#: template-parts/contact-form.php:90
+msgid "Email "
+msgstr ""
+
+#: template-parts/contact-form.php:96
+msgid "Message "
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-page.php:25
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-page.php:29
+msgid "Page"
+msgstr ""
+
+#: template-parts/portfolio-filter.php:21
+msgid "Tags"
+msgstr ""
+
+#: template-parts/portfolio-filter.php:25
+msgid "All"
+msgstr ""
+
+#: template-parts/portfolio-meta.php:41
+msgid "Date: "
+msgstr ""
+
+#: template-parts/portfolio-meta.php:47
+msgid "Role: "
+msgstr ""
+
+#: template-parts/portfolio-meta.php:53
+msgid "Client: "
+msgstr ""
+
+#: template-parts/portfolio-meta.php:66
+msgid "URL: "
+msgstr ""
+
+#: template-parts/portfolio-meta.php:72
+msgid "Views: "
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Charmed"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://demo.themebeans.com/charmed"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Charmed is a handsome theme built to power websites for creative agencies, "
+"freelancers, artists, designers, photographers and those who love to "
+"create. Featuring a purposeful, responsive design and a fully-featured "
+"portfolio, you can get a professional portfolio website up and running "
+"effortlessly, with  zero coding needed. Charmed will make your portfolio "
+"brillaint look fantasic."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ThemeBeans"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://themebeans.com"
+msgstr ""
+
+#: functions.php:307
+#. translators: If there are characters in your language that are not supported
+#. by Lekton, translate this to 'off'. Do not translate into your own language.
+msgctxt "Karla font: on or off"
+msgid "on"
+msgstr ""
