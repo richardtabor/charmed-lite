@@ -10,7 +10,7 @@ Tags: white, dark, light, one-column, two-columns, responsive-layout, accessibil
 
 ## Description ##
 
-Charmed is a handsome theme built to power websites for creative agencies, freelancers, artists, designers, photographers and those who love to create.
+<a href="http://themebeans.com/themes/charmed">Charmed</a> is a handsome theme built to power websites for creative agencies, freelancers, artists, designers, photographers and those who love to create.
 
 Featuring a purposeful, responsive design and a fully-featured portfolio, you can get a professional portfolio website up and running effortlessly, with  zero coding needed. Charmed will make your portfolio brillaint look fantasic.
 
@@ -21,13 +21,13 @@ Featuring a purposeful, responsive design and a fully-featured portfolio, you ca
 * Post Formats
 * The GPL v2.0 or later license. :) Use it to make something cool.
 
-For more information about Charmed please go to http://themebeans.com/themes/charmed
-
-If you're interested in upgrading to Charmed Pro, <a href="http://themebeans.com/?p=77027">click here to learn more about the new features</a> or <a href="http://themebeans.com/checkout?edd_action=add_to_cart&amp;download_id=75780">go ahead and purchase Charmed Pro.</a>
-
 ## Installation ##
 
 1. In your admin panel, go to Appearance -> Themes and click the 'Add New' button.
 2. Type in Charmed in the search form and press the 'Enter' key on your keyboard.
 3. Click on the 'Activate' button to use your new theme right away.
 4. Navigate to Appearance > Customize in your admin panel and customize to taste.
+
+## Charmed Pro ##
+
+If you're interested in upgrading to Charmed Pro, <a href="http://themebeans.com/?p=77027">click here to learn more</a> or <a href="http://themebeans.com/checkout?edd_action=add_to_cart&amp;download_id=75780">go ahead and purchase Charmed Pro.</a>
