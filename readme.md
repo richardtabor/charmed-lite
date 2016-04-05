@@ -2,7 +2,7 @@
 
 Contributors: Rich Tabor of ThemeBeans.com
 Requires at least: WordPress 4.2
-Tested up to: WordPress 4.3
+Tested up to: WordPress 4.4.2
 Version: 1.0.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -22,6 +22,8 @@ Featuring a purposeful, responsive design and a fully-featured portfolio, you ca
 * The GPL v2.0 or later license. :) Use it to make something cool.
 
 For more information about Charmed please go to http://themebeans.com/themes/charmed
+
+If you're interested in upgrading to Charmed Pro, <a href="http://themebeans.com/?p=77027">click here to learn more about the new features</a> or <a href="http://themebeans.com/checkout?edd_action=add_to_cart&amp;download_id=75780">go ahead and purchase Charmed Pro.</a>
 
 ## Installation ##
 
