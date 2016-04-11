@@ -52,8 +52,8 @@ function charmed_retina_jetpack_site_logo( $html, $logo, $size ) {
 		$imageAttachment = wp_get_attachment_image_src( $logo['id'], $size );
 		
 		// Half the image size since we want a retina ready image
-		$html = preg_replace( '/width="(\d+)"/i', 'width="' . ( $imageAttachment[1] / 2 ) . '"', $html );
-		$html = preg_replace( '/height="(\d+)"/i', 'height="' . ( $imageAttachment[2] / 2 ) . '"', $html );
+		$html = preg_replace( '/width="(\d+)"/i', 'width="' . ( round( $imageAttachment[1] / 2 ) ) . '"', $html );
+		$html = preg_replace( '/height="(\d+)"/i', 'height="' . ( round( $imageAttachment[2] / 2 ) ) . '"', $html );
 	
 	endif;	
 
