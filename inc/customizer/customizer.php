@@ -270,8 +270,8 @@ function bean_customize_register( $wp_customize ) {
 
         $wp_customize->add_control( 'retina_logo', array(
             'type'              => 'checkbox',
-            'label'                 => esc_html__( 'Enable retina logo', 'charmed' ),
-            'description'           => esc_html__( '', 'charmed' ),
+            'label'             => esc_html__( 'Enable retina logo', 'charmed' ),
+            'description'       => esc_html__( '', 'charmed' ),
             'section'           => 'title_tagline',
         ) );
     }

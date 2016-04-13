@@ -33,7 +33,7 @@
 /**
  * Set constant for version.
  */
-define( 'BEAN_THEME_VERSION', '1.0.5' );
+define( 'BEAN_THEME_VERSION', '1.1.0' );
 
 
 
@@ -98,6 +98,15 @@ function charmed_setup() {
 	 */
 	add_theme_support( 'title-tag' );
 	
+
+
+    /*
+     * Enable support for site logo.
+     * It's not quite ready yet, so I've commented it out.
+     */
+    //add_image_size( 'charmed-logo', 200, 200 );
+    //add_theme_support( 'custom-logo', array( 'size' => 'charmed-logo' ) );
+
 
 
 	/**

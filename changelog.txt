@@ -1,6 +1,11 @@
-Version: 1.0.5
+Version: 1.1.0
 
 ** Charmed Changelog **
+
+13 April 2016 - Version 1.1.0
+     * WordPress 4.5 updates
+     * General performance improvements
+     * Updated languages
 
 15 February 2016 - Version 1.0.5
      * Updated feedback class

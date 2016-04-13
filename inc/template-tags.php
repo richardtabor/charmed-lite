@@ -35,6 +35,30 @@ endif;
 
 
 
+if ( ! function_exists( 'charmed_the_site_logo' ) ) :
+/**
+ * Displays the optional site logo.
+ * Returns early if the site logo is not available.
+ */
+function charmed_the_site_logo() {
+
+    if ( ! function_exists( 'the_custom_logo' ) ) {
+        charmed_site_logo();
+    } else {
+        the_custom_logo();
+    }
+}
+endif;
+
+
+
+
+
+
+
+
+
+
 if ( ! function_exists( 'charmed_retina_logo' ) ) :
 /**
 * Output the width of the uploaded image, at 1/2 the original size.
