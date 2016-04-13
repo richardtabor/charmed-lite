@@ -18,7 +18,7 @@ get_header(); ?>
 				</header><!-- .page-header -->
 				
 				<div class="page-content">
-					<p><a href="javascript:javascript:history.go(-1)"><?php esc_html_e( 'Go back', 'charmed' ); ?></a><?php esc_html_e( ' or ', 'charmed' ); ?><a href="<?php echo esc_url( home_url() ); ?>"><?php esc_html_e( 'go home', 'charmed' ); ?></a> &rarr;</p>
+					<p><a href="javascript:javascript:history.go(-1)"><?php esc_html_e( 'Go back', 'charmed' ); ?></a><?php esc_html_e( ' or ', 'charmed' ); ?><a href="<?php echo esc_url( home_url('/') ); ?>"><?php esc_html_e( 'go home', 'charmed' ); ?></a> &rarr;</p>
 	 			</div><!-- .page-content -->
 
 	 		</section><!-- .error-404 -->

@@ -72,7 +72,7 @@ function bean_create_meta_box( $post, $meta_box )
 						frame.toolbar.get('view').set({
 							insert: {
 								style: 'primary',
-								text: '<?php _e("Insert", "bean"); ?>',
+								text: '<?php esc_html_e("Insert", "bean"); ?>',
 
 								click: function() {
 									var models = frame.state().get('selection'),
@@ -120,13 +120,13 @@ function bean_create_meta_box( $post, $meta_box )
 						frame.toolbar.get('view').set({
 							insert: {
 								style: 'primary',
-								text: '<?php _e("Insert", "bean"); ?>',
+								text: '<?php esc_html_e("Insert", "bean"); ?>',
 
 								click: function() {
 									var models = frame.state().get('selection'),
 										    id = models.first().attributes.id;
 
-										this.el.innerHTML = '<?php _e("Saving...", "bean"); ?>';
+										this.el.innerHTML = '<?php esc_html_e("Saving...", "bean"); ?>';
 										
 										$.ajax({
 											type: 'POST',
@@ -182,21 +182,21 @@ function bean_create_meta_box( $post, $meta_box )
 						e.preventDefault();
 						//FIRST FRAME
 						var options = {
-							title: '<?php _e("Create Gallery", "bean"); ?>',
+							title: '<?php esc_html_e("Create Gallery", "bean"); ?>',
 							state: 'gallery-edit',
 							frame: 'post',
 							selection: selection
 						};
 						//IF FRAME IS THERE
 						if( frame || selection ) {
-							options['title'] = '<?php _e("Edit Gallery", "bean"); ?>';
+							options['title'] = '<?php esc_html_e("Edit Gallery", "bean"); ?>';
 						}
 
 						frame = wp.media(options).open();
 						
 						// CUSTOMIZE VIEWS
-						frame.menu.get('view').get('cancel').el.innerHTML = '<?php _e("Cancel", "bean"); ?>';
-						frame.menu.get('view').get('gallery-edit').el.innerHTML = '<?php _e("Edit Gallery", "bean"); ?>';
+						frame.menu.get('view').get('cancel').el.innerHTML = '<?php esc_html_e("Cancel", "bean"); ?>';
+						frame.menu.get('view').get('gallery-edit').el.innerHTML = '<?php esc_html_e("Edit Gallery", "bean"); ?>';
 						frame.content.get('view').sidebar.unset('gallery');
 
 						overrideGalleryInsert();
@@ -232,7 +232,7 @@ function bean_create_meta_box( $post, $meta_box )
     						frame.toolbar.get('view').set({
 								insert: {
 									style: 'primary',
-									text: '<?php _e("Save Gallery", "bean"); ?>',
+									text: '<?php esc_html_e("Save Gallery", "bean"); ?>',
 
 									click: function() {
 										var models = frame.state().get('library'),
@@ -242,7 +242,7 @@ function bean_create_meta_box( $post, $meta_box )
 										    ids += attachment.id + ','
 										});
 
-										this.el.innerHTML = '<?php _e("Saving...", "bean"); ?>';
+										this.el.innerHTML = '<?php esc_html_e("Saving...", "bean"); ?>';
 										
 										$.ajax({
 											type: 'POST',

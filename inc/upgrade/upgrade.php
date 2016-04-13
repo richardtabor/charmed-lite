@@ -54,7 +54,7 @@ class ThemeBeans_Pro_Upgrade {
 	 * @see  add_theme_page()
 	 */
 	public function pro_upgrade_register_menu() {
-		add_dashboard_page( 'Get '.esc_html( PRO_NAME ).' Pro', 'Get '.esc_html( PRO_NAME ).' Pro', 'read', 'pro-upgrade', array( $this, 'pro_upgrade_redirect' ) );
+		add_dashboard_page( 'Buy '.esc_html( PRO_NAME ).' Pro', 'Buy '.esc_html( PRO_NAME ).' Pro', 'read', 'pro-upgrade', array( $this, 'pro_upgrade_redirect' ) );
 	}
 
 
@@ -111,8 +111,8 @@ class ThemeBeans_Pro_Upgrade {
 			'themebeans_pro_L10n',
 			array(
 				'themebeans_pro_url'		=> esc_url( PRO_UPGRADE_URL ),
-				'themebeans_pro_label'		=> __( 'Upgrade to '.PRO_NAME.' Pro', 'charmed' ),
-				'themebeans_pro_minilabel'	=> __( 'Pro', 'charmed' ),
+				'themebeans_pro_label'		=> esc_html__( 'Upgrade to '.PRO_NAME.' Pro', 'charmed' ),
+				'themebeans_pro_minilabel'	=> esc_html__( 'Pro', 'charmed' ),
 			)
 		);
 	}

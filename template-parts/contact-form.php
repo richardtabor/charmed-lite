@@ -63,7 +63,7 @@ if(isset($_POST['submitted'])) {
 if(isset($emailSent) && $emailSent == true ) : ?>
 	
 	<div class="contact-alert success">
-		<?php _e('Your message was sent. Thanks.', 'charmed') ?>	
+		<?php esc_html_e('Your message was sent. Thanks.', 'charmed') ?>	
 	</div>
 
 <?php endif;
@@ -71,7 +71,7 @@ if(isset($emailSent) && $emailSent == true ) : ?>
 if(isset($hasError) || isset($captchaError)) : ?>
 
 	<div class="contact-alert fail">
-		<?php _e('An error occured. Try again.', 'charmed') ?>
+		<?php esc_html_e('An error occured. Try again.', 'charmed') ?>
 	</div>
 	
 <?php endif; ?>

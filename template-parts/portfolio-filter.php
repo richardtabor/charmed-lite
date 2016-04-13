@@ -18,11 +18,11 @@ if ( 'post' == get_post_type() ) {
 
 <div class="project-filter hide-on-mobile">
 	
-	<h6 class="widget-title"><?php _e( 'Tags', 'charmed' ); ?></h6>
+	<h6 class="widget-title"><?php esc_html_e( 'Tags', 'charmed' ); ?></h6>
 
 	<ul class="filter-group">
 		
-		<li><a href="javascript:void(0);" id="filter-close" class="active" data-filter="*"><?php _e( 'All' , 'charmed' ); ?></a></li>
+		<li><a href="javascript:void(0);" id="filter-close" class="active" data-filter="*"><?php esc_html_e( 'All' , 'charmed' ); ?></a></li>
 
 		<?php 
 		$terms = get_terms( $loop_terms );

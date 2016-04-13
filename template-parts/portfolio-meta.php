@@ -38,19 +38,19 @@ $portfolio_url_clean = preg_replace('/\s+/', '', $portfolio_url_clean);
 
 	<?php if ($portfolio_date == 'on') { ?> 
 		<h6 class="published">
-			<?php _e( 'Date: ', 'charmed' ); ?><span><?php the_time('M Y') ?></span>
+			<?php esc_html_e( 'Date: ', 'charmed' ); ?><span><?php the_time('M Y') ?></span>
 		</h6>	
 	<?php } ?>
 
 	<?php if ($portfolio_role) { ?>
 		<h6 class="role">
-			<?php _e( 'Role: ', 'charmed' ); ?><span><?php echo esc_html( $portfolio_role ); ?></span>
+			<?php esc_html_e( 'Role: ', 'charmed' ); ?><span><?php echo esc_html( $portfolio_role ); ?></span>
 		</h6>
 	<?php } ?>
 
 	<?php if ($portfolio_client) { ?>
 		<h6 class="client">
-			<?php _e( 'Client: ', 'charmed' ); ?>
+			<?php esc_html_e( 'Client: ', 'charmed' ); ?>
 			<span>
 			<?php if ($portfolio_url) { ?>
 				<a href="<?php echo esc_url($portfolio_url); ?>" target="blank"><?php echo esc_html( $portfolio_client ); ?></a>
@@ -63,13 +63,13 @@ $portfolio_url_clean = preg_replace('/\s+/', '', $portfolio_url_clean);
 
 	<?php if ($portfolio_url && !$portfolio_client ) { ?>
 		<h6 class="url">
-			<?php _e( 'URL: ', 'charmed' ); ?><span><a href="<?php echo esc_url($portfolio_url); ?>" target="blank"><?php echo esc_html( $portfolio_url_clean ); ?></a></span>
+			<?php esc_html_e( 'URL: ', 'charmed' ); ?><span><a href="<?php echo esc_url($portfolio_url); ?>" target="blank"><?php echo esc_html( $portfolio_url_clean ); ?></a></span>
 		</h6>
 	<?php } ?>
 
 	<?php if ($portfolio_views == 'on') { // DISPLAY VIEWS ?>	
 		<h6 class="views">
-			<?php _e( 'Views: ', 'charmed' ); ?><span><?php echo esc_html(charmed_getPostViews(get_the_ID())); ?></span>
+			<?php esc_html_e( 'Views: ', 'charmed' ); ?><span><?php echo esc_html(charmed_getPostViews(get_the_ID())); ?></span>
 		</h6>
 	<?php } ?>
 

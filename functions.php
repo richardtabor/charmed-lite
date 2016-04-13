@@ -167,6 +167,16 @@ function charmed_setup() {
 	 * specifically font, colors, icons, and column width.
 	 */
 	add_editor_style( array( 'css/editor-style.css' ) );
+
+
+    /*
+     * Enable support for Customizer Selective Refresh.
+     * See: https://make.wordpress.org/core/2016/02/16/selective-refresh-in-the-customizer/
+     */
+    add_theme_support( 'customize-selective-refresh-widgets' );
+
+
+    
 }
 endif; // charmed_setup
 add_action( 'after_setup_theme', 'charmed_setup' );

@@ -21,13 +21,13 @@ function charmed_site_logo() {
 
 	if ( function_exists( 'jetpack_the_site_logo' ) ) : 
 		if ( jetpack_has_site_logo() ) { jetpack_the_site_logo(); } 
-		else { ?> <h1 class="site-logo-link"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1><?php }
+		else { ?> <h1 class="site-logo-link"><a href="<?php echo esc_url( home_url('/') ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1><?php }
 	else : 
 		if( get_theme_mod( 'site_logo' )) { ?> 
-		  	<a class="site-logo-link" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img style="<?php charmed_retina_logo(); ?>" src="<?php echo esc_url( get_theme_mod( 'site_logo' ) );?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" class="site-logo"></a>
+		  	<a class="site-logo-link" href="<?php echo esc_url( home_url('/') ); ?>" rel="home"><img style="<?php charmed_retina_logo(); ?>" src="<?php echo esc_url( get_theme_mod( 'site_logo' ) );?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" class="site-logo"></a>
 		<?php
 		} else { ?>
-		  	<h1 class="site-logo-link"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+		  	<h1 class="site-logo-link"><a href="<?php echo esc_url( home_url('/') ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 		<?php }
 	endif; 
 }

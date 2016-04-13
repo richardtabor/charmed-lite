@@ -1416,6 +1416,11 @@ p:empty {
 	margin-bottom: 2px;
 }
 
+.sticky,
+.bypostauthor {
+    color: inherit;
+}
+
 
 /*------------------------------------*\
  * 9.0 - Portfolio
