@@ -1,6 +1,7 @@
-Version: 1.1.0
-
 ** Charmed Changelog **
+
+18 April 2016 - Version 1.1.1
+     * Child functionality update
 
 13 April 2016 - Version 1.1.0
      * WordPress 4.5 updates

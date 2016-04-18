@@ -640,7 +640,7 @@ msgstr ""
 
 #: functions.php:326
 #. translators: If there are characters in your language that are not supported
-#. by Lekton, translate this to 'off'. Do not translate into your own language.
+#. by Karla, translate this to 'off'. Do not translate into your own language.
 msgctxt "Karla font: on or off"
 msgid "on"
 msgstr ""
