@@ -2,7 +2,7 @@
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Charmed 1.0.5\n"
+"Project-Id-Version: Charmed 1.1.0\n"
 "Report-Msgid-Bugs-To: http://themebeans.com/\n"
 "POT-Creation-Date: 2015-09-09 22:24:41+00:00\n"
 "MIME-Version: 1.0\n"

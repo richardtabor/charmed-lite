@@ -58,6 +58,6 @@ add_action( 'admin_enqueue_scripts', 'charmed_enqueue_admin_style' );
 function charmed_meta_enqueue_admin_script($hook) {
 	if( $hook != 'edit.php' && $hook != 'post.php' && $hook != 'post-new.php' ) 
 		return;
-	wp_enqueue_script( 'meta', get_template_directory_uri() . '/inc/meta/js/meta.js', array( 'jquery' ), BEAN_THEME_VERSION, true );
+	wp_enqueue_script( 'meta', get_template_directory_uri() . '/inc/meta/js/meta.js', array( 'jquery' ), CHARMED_VERSION, true );
 }
 add_action('admin_enqueue_scripts', 'charmed_meta_enqueue_admin_script');

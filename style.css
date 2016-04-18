@@ -1487,6 +1487,10 @@ p:empty {
 	z-index: 2;
 }
 
+.bricks span.project-img img {
+	-webkit-backface-visibility: hidden;
+}
+
 .bricks a:hover .thumb span.project-img {
 	opacity: 0;
 	-webkit-transform: scale(1.3);

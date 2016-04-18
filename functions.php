@@ -33,7 +33,7 @@
 /**
  * Set constant for version.
  */
-define( 'BEAN_THEME_VERSION', '1.1.0' );
+define( 'CHARMED_VERSION', '1.1.0' );
 
 
 
@@ -258,7 +258,7 @@ function charmed_scripts() {
 		wp_enqueue_style( 'charmed-style', get_stylesheet_uri() );
 	} else {
 		// Add the main minified stylesheet.
-		wp_enqueue_style('charmed-minified-style', get_stylesheet_directory_uri(). '/style-min.css', false, '1.0', 'all');
+		wp_enqueue_style('charmed-minified-style', get_template_directory_uri(). '/style-min.css', false, '1.0', 'all');
 	}
 
 	// Load the standard WordPress comments reply javascript.
@@ -268,7 +268,7 @@ function charmed_scripts() {
 
 	// Load the contact and comment form validation scripts.
 	if ( is_page_template('template-contact.php') ) {
-		wp_enqueue_script( 'validation', 'http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js', array( 'jquery' ), BEAN_THEME_VERSION, true );
+		wp_enqueue_script( 'validation', 'http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js', array( 'jquery' ), CHARMED_VERSION, true );
 	}
 	
 	wp_enqueue_script('jquery');
@@ -279,32 +279,32 @@ function charmed_scripts() {
 	if ( WP_DEBUG || SCRIPT_DEBUG || CHARMED_DEBUG || is_child_theme() ) {
 
 		// Load the Picturefill script for serving retina images.
-		wp_enqueue_script( 'charmed-picturefill', get_template_directory_uri() . '/js/src/picturefill.js', array( 'jquery' ), BEAN_THEME_VERSION, true );
+		wp_enqueue_script( 'picturefill', get_template_directory_uri() . '/js/src/picturefill.js', array( 'jquery' ), CHARMED_VERSION, true );
 		
 		// Load the ImagesLoaded javascript.
-		wp_enqueue_script( 'charmed-imagesloaded', get_template_directory_uri() . '/js/src/images-loaded.js', array( 'jquery' ), BEAN_THEME_VERSION, true );
+		wp_enqueue_script( 'imagesloaded', get_template_directory_uri() . '/js/src/images-loaded.js', array( 'jquery' ), CHARMED_VERSION, true );
 
 		// Load the Isotope script for the masonry layout.
-		wp_enqueue_script( 'charmed-isotope', get_template_directory_uri() . '/js/src/isotope.js', array( 'jquery' ), BEAN_THEME_VERSION, true );
+		wp_enqueue_script( 'isotope', get_template_directory_uri() . '/js/src/isotope.js', array( 'jquery' ), CHARMED_VERSION, true );
 
 		// Load the Infinite Scroll javascript.
-		wp_enqueue_script( 'charmed-infinitescroll', get_template_directory_uri() . '/js/src/infinitescroll.js', array( 'jquery' ), BEAN_THEME_VERSION, true );
+		wp_enqueue_script( 'infinitescroll', get_template_directory_uri() . '/js/src/infinitescroll.js', array( 'jquery' ), CHARMED_VERSION, true );
 
 		// Load the NProgress progress bar loader javascript.
-		wp_enqueue_script( 'charmed-nprogress', get_template_directory_uri() . '/js/src/nprogress.js', array( 'jquery' ), BEAN_THEME_VERSION, true );
+		wp_enqueue_script( 'nprogress', get_template_directory_uri() . '/js/src/nprogress.js', array( 'jquery' ), CHARMED_VERSION, true );
 
 		// Load the FitVids responsive video javascript.
-		wp_enqueue_script( 'charmed-fitvids', get_template_directory_uri() . '/js/src/fitvids.js', array( 'jquery' ), BEAN_THEME_VERSION, true );
+		wp_enqueue_script( 'fitvids', get_template_directory_uri() . '/js/src/fitvids.js', array( 'jquery' ), CHARMED_VERSION, true );
 
 		// Load the custom theme javascript functions.
-		wp_enqueue_script( 'charmed-functions', get_template_directory_uri() . '/js/src/functions.js', array( 'jquery' ), BEAN_THEME_VERSION, true );
+		wp_enqueue_script( 'charmed-functions', get_template_directory_uri() . '/js/src/functions.js', array( 'jquery' ), CHARMED_VERSION, true );
 
 	} else {
 		// Load the combined javascript library.
-		wp_enqueue_script( 'charmed-combined-scripts', get_template_directory_uri() . '/js/combined-min.js', array(), BEAN_THEME_VERSION, true );
+		wp_enqueue_script( 'charmed-combined-scripts', get_template_directory_uri() . '/js/combined-min.js', array(), CHARMED_VERSION, true );
 		
 		// Load the minified javascript functions.
-		wp_enqueue_script( 'charmed-minified-functions', get_template_directory_uri() . '/js/functions-min.js', array( 'jquery' ), BEAN_THEME_VERSION, true );
+		wp_enqueue_script( 'charmed-minified-functions', get_template_directory_uri() . '/js/functions-min.js', array( 'jquery' ), CHARMED_VERSION, true );
 	}
 }
 add_action( 'wp_enqueue_scripts', 'charmed_scripts' );
@@ -322,7 +322,7 @@ function charmed_fonts_url() {
 	$fonts     = array();
 	$subsets   = '';
 
-	/* translators: If there are characters in your language that are not supported by Lekton, translate this to 'off'. Do not translate into your own language. */
+	/* translators: If there are characters in your language that are not supported by Karla, translate this to 'off'. Do not translate into your own language. */
 	if ( 'off' !== esc_html_x( 'on', 'Karla font: on or off', 'charmed' ) ) {
 		$fonts[] = 'Karla';
 	}
