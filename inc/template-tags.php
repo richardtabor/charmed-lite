@@ -52,13 +52,6 @@ endif;
 
 
 
-
-
-
-
-
-
-
 if ( ! function_exists( 'charmed_retina_logo' ) ) :
 /**
 * Output the width of the uploaded image, at 1/2 the original size.
