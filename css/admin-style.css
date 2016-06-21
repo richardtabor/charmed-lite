@@ -1,4 +1,3 @@
-
 /**
  * 1.0 Feedback Notice
  */
@@ -17,11 +16,11 @@
 }
 
 .feedback-notice.updated b {
-    color: #0073aa;
+    color: #d54e21;
 }
 
 .feedback-notice.updated .button {
-    margin-left: 10px;
+    margin: 0 5px;
 }
 
 .feedback-notice.updated .dismiss {
@@ -35,7 +34,7 @@
 
 .feedback-notice.updated b:before,
 .feedback-notice.updated .dismiss:before {
-    content: '\f335';
+    content: '\f155';
     display: inline-block;
     font: 400 20px/1 dashicons;
     position: relative;
@@ -53,11 +52,11 @@
 }
 
 .feedback-notice.updated b:before {
-    content: '\f122';
+    content: '\f155';
     border-radius: 100%;
-    background-color: #0073aa;
+    background-color: #d54e21;
     font-size: 12px;
-    line-height: 22px;
+    line-height: 21px;
     height: 22px;
     width: 22px;
     color: #fff;
@@ -100,6 +99,7 @@
         right: 10px;
     }
 }
+
 
 
 

@@ -154,10 +154,10 @@ class ThemeBeans_Request_Feedback {
             $time = $this->seconds_to_words( time() - get_site_option( $this->slug . '-activation-date' ) );
 
             echo '<div class="updated feedback-notice">
-                    <p><b>'. __( 'Instantly save 30% on Charmed Pro</b> simply by clicking the buy button to the right!', 'charmed' ) . '</p>
+                    <p><b>'. __( 'Instantly save 10% on Charmed Pro!</b> Just add Charmed Pro to your cart and we\'ll automagically apply your discount.', 'charmed' ) . '</p>
                     <p>
-                    <a class="button button-primary" style="margin-right: -10px;" href="' . esc_url( 'http://themebeans.com/checkout?edd_action=add_to_cart&download_id=75780&discount=%20XMJKJ983' ) . '" target="_blank">' . __( 'Buy Charmed Pro', 'charmed' ) . '</a>
                     <a class="button button-secondary" href="' . esc_url( 'https://themebeans.com/themes/charmed/#upsell' ) . '" target="_blank">' . __( 'Learn More', 'charmed' ) . '</a>
+                    <a class="button button-primary" href="' . esc_url( PRO_UPGRADE_URL.'&discount=CHARMED_SAVE10' ) . '" target="_blank">' . __( 'Add to Cart - $59', 'charmed' ) . '</a>
                     </p>
                 </div>';
         }
