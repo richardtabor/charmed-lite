@@ -10,10 +10,16 @@
 <div class="bricks">
 
 	<?php
-	//PULL PAGINATION FROM CUSTOMIZATION
+    // Check what post type this is.
+    if ( is_post_type_archive('portfolio') ) {
+        $post_type = 'portfolio';
+    } else {
+        $post_type = 'post';
+    }
+
 	$portfolio_posts_count = '10';
 
-	//PULL PAGINATION FROM READING SETTINGS
+	// Pull pagination from the reading settings.
 	$paged = 1; 
 	if ( get_query_var('paged') ) $paged = get_query_var('paged');
 	if ( get_query_var('page') ) $paged = get_query_var('page'); 
@@ -31,10 +37,10 @@
 	} else {
 
 		$args = array(
-			'post_type'      => 'portfolio',
-			'order'		  => 'ASC',
-			'orderby'		  => 'menu_order',
-			'paged' 		  => $paged,
+			'post_type'      => $post_type,
+			'order'		     => 'ASC',
+			'orderby'		 => 'menu_order',
+			'paged' 		 => $paged,
 			'posts_per_page' => $portfolio_posts_count,
 			);
 		
