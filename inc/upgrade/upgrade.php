@@ -54,7 +54,7 @@ class ThemeBeans_Pro_Upgrade {
 	 * @see  add_theme_page()
 	 */
 	public function pro_upgrade_register_menu() {
-		add_dashboard_page( 'Buy '.esc_html( PRO_NAME ).' Pro', 'Buy '.esc_html( PRO_NAME ).' Pro', 'read', 'pro-upgrade', array( $this, 'pro_upgrade_redirect' ) );
+		add_dashboard_page( 'Buy '.esc_html( PRO_NAME ).' Pro', ''.esc_html( PRO_NAME ).' Pro - $59', 'read', 'pro-upgrade', array( $this, 'pro_upgrade_redirect' ) );
 	}
 
 

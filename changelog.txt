@@ -1,5 +1,11 @@
 ** Charmed Changelog **
 
+07 July 2016 - Version 1.1.2
+     * Removed contact form
+     * Added portfolio archive post type variable
+     * Updated feedback module
+     * Updated languages
+
 18 April 2016 - Version 1.1.1
      * Child functionality update
 

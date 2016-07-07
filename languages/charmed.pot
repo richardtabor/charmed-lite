@@ -2,7 +2,7 @@
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Charmed 1.1.0\n"
+"Project-Id-Version: Charmed 1.1.2\n"
 "Report-Msgid-Bugs-To: http://themebeans.com/\n"
 "POT-Creation-Date: 2015-09-09 22:24:41+00:00\n"
 "MIME-Version: 1.0\n"
@@ -296,16 +296,16 @@ msgstr ""
 
 #: inc/feedback.php:157
 msgid ""
-"Instantly save 30% on Charmed Pro</b> simply by clicking the buy button to "
-"the right!"
+"Instantly save 10% on Charmed Pro!</b> Just add Charmed Pro to your cart "
+"and we'll automagically apply your discount."
 msgstr ""
 
 #: inc/feedback.php:159
-msgid "Buy Charmed Pro"
+msgid "Learn More"
 msgstr ""
 
 #: inc/feedback.php:160
-msgid "Learn More"
+msgid "Add to Cart - $59"
 msgstr ""
 
 #: inc/meta/meta-portfolio.php:26 inc/meta/meta-post.php:26
@@ -550,26 +550,6 @@ msgstr ""
 
 #: inc/widgets/widget-video.php:81
 msgid "Video Embed Code:"
-msgstr ""
-
-#: template-parts/contact-form.php:66
-msgid "Your message was sent. Thanks."
-msgstr ""
-
-#: template-parts/contact-form.php:74
-msgid "An error occured. Try again."
-msgstr ""
-
-#: template-parts/contact-form.php:84
-msgid "Name "
-msgstr ""
-
-#: template-parts/contact-form.php:90
-msgid "Email "
-msgstr ""
-
-#: template-parts/contact-form.php:96
-msgid "Message "
 msgstr ""
 
 #: template-parts/content-none.php:14
