@@ -1,5 +1,8 @@
 ** Charmed Changelog **
 
+08 July 2016 - Version 1.1.3
+     * Fixed portfolio template view
+
 07 July 2016 - Version 1.1.2
      * Removed contact form
      * Added portfolio archive post type variable

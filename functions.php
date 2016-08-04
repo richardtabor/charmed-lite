@@ -33,7 +33,7 @@
 /**
  * Set constant for version.
  */
-define( 'CHARMED_VERSION', '1.1.2' );
+define( 'CHARMED_VERSION', '1.1.3' );
 
 
 
