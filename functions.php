@@ -423,6 +423,20 @@ endif;
 
 
 
+if ( ! function_exists( 'charmed_pingback_header' ) ) :
+/**
+ * Add a pingback url auto-discovery header for singularly identifiable articles.
+ */
+function charmed_pingback_header() {
+    if ( is_singular() && pings_open() ) {
+        echo '<link rel="pingback" href="', bloginfo( 'pingback_url' ), '">';
+    }
+}
+add_action( 'wp_head', 'charmed_pingback_header' );
+endif;
+
+
+
 /**
  * Admin specific functions.
  */

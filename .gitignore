@@ -14,3 +14,5 @@ node_modules
 package.json
 
 gruntfile.js
+template-parts/.DS_Store
+.DS_Store
