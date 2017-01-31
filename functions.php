@@ -209,7 +209,7 @@ add_action( 'widgets_init', 'charmed_widgets_init' );
 function charmed_javascript_detection() {
 	echo "<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>\n";
 }
-add_action( 'wp_head', 'charmed_javascript_detection', 0 );
+add_action( 'wp_enqueue_scripts', 'charmed_javascript_detection', 0 );
 
 
 
