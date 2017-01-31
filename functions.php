@@ -228,7 +228,7 @@ function charmed_scripts() {
 	 * 
 	 * @link https://codex.wordpress.org/WP_DEBUG
 	 */
-	if ( WP_DEBUG || SCRIPT_DEBUG || CHARMED_DEBUG ) {
+	if ( SCRIPT_DEBUG || CHARMED_DEBUG ) {
 		// Add the main stylesheet.
 		wp_enqueue_style( 'charmed-style', get_stylesheet_uri() );
 	} else {
@@ -251,7 +251,7 @@ function charmed_scripts() {
 	/**
 	 * Now let's check the same for the scripts.
 	 */
-	if ( WP_DEBUG || SCRIPT_DEBUG || CHARMED_DEBUG || is_child_theme() ) {
+	if ( SCRIPT_DEBUG || CHARMED_DEBUG || is_child_theme() ) {
 
 		// Load the Picturefill script for serving retina images.
 		wp_enqueue_script( 'picturefill', get_template_directory_uri() . '/js/src/picturefill.js', array( 'jquery' ), CHARMED_VERSION, true );
@@ -312,6 +312,27 @@ function charmed_fonts_url() {
 	return $fonts_url;
 }
 endif;
+
+
+
+/**
+ * Add preconnect for Google Fonts.
+ *
+ * @param  array  $urls           URLs to print for resource hints.
+ * @param  string $relation_type  The relation type the URLs are printed.
+ * @return array  $urls           URLs to print for resource hints.
+ */
+function charmed_resource_hints( $urls, $relation_type ) {
+    if ( wp_style_is( 'charmed-fonts', 'queue' ) && 'preconnect' === $relation_type ) {
+        $urls[] = array(
+            'href' => 'https://fonts.gstatic.com',
+            'crossorigin',
+        );
+    }
+
+    return $urls;
+}
+add_filter( 'wp_resource_hints', 'charmed_resource_hints', 10, 2 );
 
 
 
