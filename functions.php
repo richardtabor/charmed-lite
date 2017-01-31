@@ -19,19 +19,13 @@ define( 'CHARMED_VERSION', '1.1.3' );
 
 
 /**
- * Check to see if updates are enabled.
- * If so, then we load the theme update class via admin.php.
- */
-define( 'BEAN_UPDATES', true );
-
-
-
-/**
  * Check to see if development mode is active.
  * If set the 'true', then serve standard theme files,
  * instead of minified .css and .js files.
  */
-define( 'CHARMED_DEBUG', false );
+if ( ! defined( 'CHARMED_DEBUG' ) ) {
+    define( 'CHARMED_DEBUG', false );
+}
 
 
 
