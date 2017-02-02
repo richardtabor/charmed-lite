@@ -28,8 +28,8 @@ function bean_customize_register( $wp_customize ) {
 	/**
 	 * Add custom controls.
 	 */
-	require get_template_directory() . '/inc/customizer/custom-controls/content.php';
-	require get_template_directory() . '/inc/customizer/custom-controls/range.php';
+	require get_parent_theme_file_path() . '/inc/customizer/custom-controls/content.php';
+	require get_parent_theme_file_path() . '/inc/customizer/custom-controls/range.php';
 	
 
 

@@ -56,7 +56,7 @@ function charmed_setup() {
 	 * If you're building a theme based on Charmed, use a find and replace
 	 * to change 'charmed' to the name of your theme in all the template files
 	 */
-	load_theme_textdomain( 'charmed', get_template_directory() . '/languages' );
+	load_theme_textdomain( 'charmed', get_parent_theme_file_path() . '/languages' );
 	
 
 
@@ -436,39 +436,39 @@ endif;
 /**
  * Admin specific functions.
  */
-require get_template_directory() . '/inc/admin.php';
+require get_parent_theme_file_path() . '/inc/admin.php';
 
 
 
 /**
  * Customizer additions.
  */
-require get_template_directory() . '/inc/customizer/customizer.php';
-require get_template_directory() . '/inc/customizer/customizer-css.php';
-require get_template_directory() . '/inc/customizer/sanitization.php';
+require get_parent_theme_file_path() . '/inc/customizer/customizer.php';
+require get_parent_theme_file_path() . '/inc/customizer/customizer-css.php';
+require get_parent_theme_file_path() . '/inc/customizer/sanitization.php';
 
 
 
 /**
  * Custom template tags for this theme.
  */
-require get_template_directory() . '/inc/template-tags.php';
+require get_parent_theme_file_path() . '/inc/template-tags.php';
 
 
 
 /**
  * Load Jetpack compatibility file.
  */
-require get_template_directory() . '/inc/jetpack.php';
+require get_parent_theme_file_path() . '/inc/jetpack.php';
 
 
 
 /**
  * Add Widgets.
  */
-require get_template_directory() . '/inc/widgets/widget-flickr.php';
-require get_template_directory() . '/inc/widgets/widget-video.php';
-require get_template_directory() . '/inc/widgets/widget-portfolio-menu.php';
+require get_parent_theme_file_path() . '/inc/widgets/widget-flickr.php';
+require get_parent_theme_file_path() . '/inc/widgets/widget-video.php';
+require get_parent_theme_file_path() . '/inc/widgets/widget-portfolio-menu.php';
 
 
 
@@ -477,5 +477,5 @@ require get_template_directory() . '/inc/widgets/widget-portfolio-menu.php';
  * @todo Add this welcome screen section.
  */
 // if ( is_admin() ) {
-// 	require get_template_directory() . '/inc/welcome/welcome-screen.php';
+// 	require get_parent_theme_file_path() . '/inc/welcome/welcome-screen.php';
 // }
