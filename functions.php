@@ -14,7 +14,9 @@
 /**
  * Set constant for version.
  */
-define( 'CHARMED_VERSION', '1.1.3' );
+if ( ! defined( 'CHARMED_VERSION' ) ) {
+	define( 'CHARMED_VERSION', '1.1.3' );
+}
 
 
 
@@ -30,9 +32,9 @@ if ( ! defined( 'CHARMED_DEBUG' ) ) {
 
 
 /**
- * Charmed only works in WordPress 4.2 or later.
+ * Charmed only works in WordPress 4.7 or later.
  */
-if ( version_compare( $GLOBALS['wp_version'], '4.2', '<' ) ) {
+if ( version_compare( $GLOBALS['wp_version'], '4.7', '<' ) ) {
 	require get_template_directory() . '/inc/back-compat.php';
 }
 
@@ -228,12 +230,12 @@ function charmed_scripts() {
 	 * 
 	 * @link https://codex.wordpress.org/WP_DEBUG
 	 */
-	if ( SCRIPT_DEBUG || CHARMED_DEBUG ) {
+	if ( SCRIPT_DEBUG || CHARMED_DEBUG || is_child_theme() ) {
 		// Add the main stylesheet.
 		wp_enqueue_style( 'charmed-style', get_stylesheet_uri() );
 	} else {
 		// Add the main minified stylesheet.
-		wp_enqueue_style('charmed-minified-style', get_theme_file_uri(). '/style-min.css', false, '1.0', 'all');
+		wp_enqueue_style('charmed-style', get_theme_file_uri( '/style-min.css' ), false, '1.0', 'all');
 	}
 
 	// Load the standard WordPress comments reply javascript.
@@ -251,10 +253,10 @@ function charmed_scripts() {
 	/**
 	 * Now let's check the same for the scripts.
 	 */
-	if ( SCRIPT_DEBUG || CHARMED_DEBUG || is_child_theme() ) {
+	if ( SCRIPT_DEBUG || CHARMED_DEBUG ) {
 
 		// Load the Picturefill script for serving retina images.
-		wp_enqueue_script( 'picturefill', get_theme_file_uri() . '/js/src/picturefill.js', array( 'jquery' ), CHARMED_VERSION, true );
+		wp_enqueue_script( 'picturefill', get_theme_file_uri( '/js/src/picturefill.js' ), array( 'jquery' ), CHARMED_VERSION, true );
 		
 		// Load the ImagesLoaded javascript.
 		wp_enqueue_script( 'imagesloaded', get_theme_file_uri() . '/js/src/images-loaded.js', array( 'jquery' ), CHARMED_VERSION, true );
@@ -469,13 +471,3 @@ require get_parent_theme_file_path() . '/inc/jetpack.php';
 require get_parent_theme_file_path() . '/inc/widgets/widget-flickr.php';
 require get_parent_theme_file_path() . '/inc/widgets/widget-video.php';
 require get_parent_theme_file_path() . '/inc/widgets/widget-portfolio-menu.php';
-
-
-
-/**
- * Theme Welcome Screen
- * @todo Add this welcome screen section.
- */
-// if ( is_admin() ) {
-// 	require get_parent_theme_file_path() . '/inc/welcome/welcome-screen.php';
-// }
