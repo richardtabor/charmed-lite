@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Charmed 1.1.2\n"
-"Report-Msgid-Bugs-To: http://themebeans.com/\n"
+"Report-Msgid-Bugs-To: https://themebeans.com/\n"
 "POT-Creation-Date: 2015-09-09 22:24:41+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -615,7 +615,7 @@ msgid "ThemeBeans"
 msgstr ""
 
 #. Author URI of the plugin/theme
-msgid "http://themebeans.com"
+msgid "https://themebeans.com"
 msgstr ""
 
 #: functions.php:326

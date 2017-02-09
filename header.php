@@ -76,7 +76,7 @@
 
 				<?php $visibility = ( false == get_theme_mod( 'powered_by_charmed' ) ) ? 'hidden' : '' ?>
 
-				<a href="http://themebeans.com/themes/charmed/" class="powered-by-charmed <?php echo esc_html($visibility); ?>"><?php printf( __( 'Powered by %s', 'charmed' ), 'Charmed' ); ?></a>
+				<a href="https://themebeans.com/themes/charmed/" class="powered-by-charmed <?php echo esc_html($visibility); ?>"><?php printf( __( 'Powered by %s', 'charmed' ), 'Charmed' ); ?></a>
 
 				<?php $visibility = ( false == get_theme_mod( 'powered_by_wordpress' ) ) ? 'hidden' : '' ?>
 
