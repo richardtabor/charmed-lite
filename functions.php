@@ -35,7 +35,7 @@ if ( ! defined( 'CHARMED_DEBUG' ) ) {
  * Charmed only works in WordPress 4.7 or later.
  */
 if ( version_compare( $GLOBALS['wp_version'], '4.7', '<' ) ) {
-	require get_theme_file_path() . '/inc/back-compat.php';
+	require get_theme_file_path( '/inc/back-compat.php' );
 }
 
 
@@ -58,7 +58,7 @@ function charmed_setup() {
 	 * If you're building a theme based on Charmed, use a find and replace
 	 * to change 'charmed' to the name of your theme in all the template files
 	 */
-	load_theme_textdomain( 'charmed', get_theme_file_path() . '/languages' );
+	load_theme_textdomain( 'charmed', get_theme_file_path( '/languages' ) );
 	
 
 
@@ -438,36 +438,36 @@ endif;
 /**
  * Admin specific functions.
  */
-require get_theme_file_path() . '/inc/admin.php';
+require get_theme_file_path( '/inc/admin.php' );
 
 
 
 /**
  * Customizer additions.
  */
-require get_theme_file_path() . '/inc/customizer/customizer.php';
-require get_theme_file_path() . '/inc/customizer/customizer-css.php';
-require get_theme_file_path() . '/inc/customizer/sanitization.php';
+require get_theme_file_path( '/inc/customizer/customizer.php' );
+require get_theme_file_path( '/inc/customizer/customizer-css.php' );
+require get_theme_file_path( '/inc/customizer/sanitization.php' );
 
 
 
 /**
  * Custom template tags for this theme.
  */
-require get_theme_file_path() . '/inc/template-tags.php';
+require get_theme_file_path( '/inc/template-tags.php' );
 
 
 
 /**
  * Load Jetpack compatibility file.
  */
-require get_theme_file_path() . '/inc/jetpack.php';
+require get_theme_file_path( '/inc/jetpack.php' );
 
 
 
 /**
  * Add Widgets.
  */
-require get_theme_file_path() . '/inc/widgets/widget-flickr.php';
-require get_theme_file_path() . '/inc/widgets/widget-video.php';
-require get_theme_file_path() . '/inc/widgets/widget-portfolio-menu.php';
+require get_theme_file_path( '/inc/widgets/widget-flickr.php' );
+require get_theme_file_path( '/inc/widgets/widget-video.php' );
+require get_theme_file_path( '/inc/widgets/widget-portfolio-menu.php' );

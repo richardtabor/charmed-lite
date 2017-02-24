@@ -11,9 +11,9 @@
  * Post meta additions.
  */
 if( is_admin() ) {
-	require get_theme_file_path() . '/inc/meta/metaboxes.php';
-	require get_theme_file_path() . '/inc/meta/meta-post.php';
-	require get_theme_file_path() . '/inc/meta/meta-portfolio.php';
+	require get_theme_file_path( '/inc/meta/metaboxes.php' );
+	require get_theme_file_path( '/inc/meta/meta-post.php' );
+	require get_theme_file_path( '/inc/meta/meta-portfolio.php' );
 }
 
 
@@ -23,8 +23,8 @@ if( is_admin() ) {
  * Warning: Don't just remove or delete these lines below.
  * You will get errors. 
  */
-require get_theme_file_path() . '/inc/upgrade/upgrade-setup.php';	
-require get_theme_file_path() . '/inc/upgrade/upgrade.php';	
+require get_theme_file_path( '/inc/upgrade/upgrade-setup.php' );	
+require get_theme_file_path( '/inc/upgrade/upgrade.php' );	
 
 
 
@@ -34,7 +34,7 @@ require get_theme_file_path() . '/inc/upgrade/upgrade.php';
  * You will get errors.  
  */
 if( is_admin() ) {
-	require get_theme_file_path() . '/inc/feedback.php';
+	require get_theme_file_path( '/inc/feedback.php' );
 }
 
 
