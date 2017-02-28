@@ -43,7 +43,7 @@ if( is_admin() ) {
  * Register and enqueue a custom stylesheet in the WordPress admin.
  */
 function charmed_enqueue_admin_style() {
-     wp_register_style( 'admin_style', get_theme_file_uri() . '/css/admin-style.css', false, '1.0.0' );
+     wp_register_style( 'admin_style', get_theme_file_uri( '/css/admin-style.css' ), false, '1.0.0' );
      wp_enqueue_style(  'admin_style' );
 }
 add_action( 'admin_enqueue_scripts', 'charmed_enqueue_admin_style' );
@@ -58,6 +58,6 @@ add_action( 'admin_enqueue_scripts', 'charmed_enqueue_admin_style' );
 function charmed_meta_enqueue_admin_script($hook) {
 	if( $hook != 'edit.php' && $hook != 'post.php' && $hook != 'post-new.php' ) 
 		return;
-	wp_enqueue_script( 'meta', get_theme_file_uri() . '/inc/meta/js/meta.js', array( 'jquery' ), CHARMED_VERSION, true );
+	wp_enqueue_script( 'meta', get_theme_file_uri( '/inc/meta/js/meta.js' ), array( 'jquery' ), CHARMED_VERSION, true );
 }
 add_action('admin_enqueue_scripts', 'charmed_meta_enqueue_admin_script');

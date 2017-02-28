@@ -259,29 +259,29 @@ function charmed_scripts() {
 		wp_enqueue_script( 'picturefill', get_theme_file_uri( '/js/src/picturefill.js' ), array( 'jquery' ), CHARMED_VERSION, true );
 		
 		// Load the ImagesLoaded javascript.
-		wp_enqueue_script( 'imagesloaded', get_theme_file_uri() . '/js/src/images-loaded.js', array( 'jquery' ), CHARMED_VERSION, true );
+		wp_enqueue_script( 'imagesloaded', get_theme_file_uri( '/js/src/images-loaded.js' ), array( 'jquery' ), CHARMED_VERSION, true );
 
 		// Load the Isotope script for the masonry layout.
-		wp_enqueue_script( 'isotope', get_theme_file_uri() . '/js/src/isotope.js', array( 'jquery' ), CHARMED_VERSION, true );
+		wp_enqueue_script( 'isotope', get_theme_file_uri( '/js/src/isotope.js' ), array( 'jquery' ), CHARMED_VERSION, true );
 
 		// Load the Infinite Scroll javascript.
-		wp_enqueue_script( 'infinitescroll', get_theme_file_uri() . '/js/src/infinitescroll.js', array( 'jquery' ), CHARMED_VERSION, true );
+		wp_enqueue_script( 'infinitescroll', get_theme_file_uri( '/js/src/infinitescroll.js' ), array( 'jquery' ), CHARMED_VERSION, true );
 
 		// Load the NProgress progress bar loader javascript.
-		wp_enqueue_script( 'nprogress', get_theme_file_uri() . '/js/src/nprogress.js', array( 'jquery' ), CHARMED_VERSION, true );
+		wp_enqueue_script( 'nprogress', get_theme_file_uri( '/js/src/nprogress.js' ), array( 'jquery' ), CHARMED_VERSION, true );
 
 		// Load the FitVids responsive video javascript.
-		wp_enqueue_script( 'fitvids', get_theme_file_uri() . '/js/src/fitvids.js', array( 'jquery' ), CHARMED_VERSION, true );
+		wp_enqueue_script( 'fitvids', get_theme_file_uri( '/js/src/fitvids.js' ), array( 'jquery' ), CHARMED_VERSION, true );
 
 		// Load the custom theme javascript functions.
-		wp_enqueue_script( 'charmed-functions', get_theme_file_uri() . '/js/src/functions.js', array( 'jquery' ), CHARMED_VERSION, true );
+		wp_enqueue_script( 'charmed-functions', get_theme_file_uri( '/js/src/functions.js' ), array( 'jquery' ), CHARMED_VERSION, true );
 
 	} else {
 		// Load the combined javascript library.
-		wp_enqueue_script( 'charmed-combined-scripts', get_theme_file_uri() . '/js/combined-min.js', array(), CHARMED_VERSION, true );
+		wp_enqueue_script( 'charmed-combined-scripts', get_theme_file_uri( '/js/combined-min.js' ), array(), CHARMED_VERSION, true );
 		
 		// Load the minified javascript functions.
-		wp_enqueue_script( 'charmed-minified-functions', get_theme_file_uri() . '/js/functions-min.js', array( 'jquery' ), CHARMED_VERSION, true );
+		wp_enqueue_script( 'charmed-minified-functions', get_theme_file_uri( '/js/functions-min.js' ), array( 'jquery' ), CHARMED_VERSION, true );
 	}
 }
 add_action( 'wp_enqueue_scripts', 'charmed_scripts' );
