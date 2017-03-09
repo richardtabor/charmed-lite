@@ -10,7 +10,7 @@ Tags: white, dark, light, one-column, two-columns, responsive-layout, accessibil
 
 ## Description ##
 
-<a href="http://themebeans.com/themes/charmed">Charmed</a> is a handsome theme built to power websites for creative agencies, freelancers, artists, designers, photographers and those who love to create.
+<a href="https://themebeans.com/themes/charmed">Charmed</a> is a handsome theme built to power websites for creative agencies, freelancers, artists, designers, photographers and those who love to create.
 
 Featuring a purposeful, responsive design and a fully-featured portfolio, you can get a professional portfolio website up and running effortlessly, with  zero coding needed. Charmed will make your portfolio brillaint look fantasic.
 
@@ -30,4 +30,4 @@ Featuring a purposeful, responsive design and a fully-featured portfolio, you ca
 
 ## Charmed Pro ##
 
-If you're interested in upgrading to Charmed Pro, <a href="http://themebeans.com/?p=77027">click here to learn more</a> or <a href="http://themebeans.com/checkout?edd_action=add_to_cart&amp;download_id=75780">go ahead and purchase Charmed Pro.</a>
+If you're interested in upgrading to Charmed Pro, <a href="https://themebeans.com/?p=77027">click here to learn more</a> or <a href="https://themebeans.com/checkout?edd_action=add_to_cart&amp;download_id=75780">go ahead and purchase Charmed Pro.</a>

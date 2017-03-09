@@ -14,15 +14,9 @@
 /**
  * Set constant for version.
  */
-define( 'CHARMED_VERSION', '1.1.3' );
-
-
-
-/**
- * Check to see if updates are enabled.
- * If so, then we load the theme update class via admin.php.
- */
-define( 'BEAN_UPDATES', true );
+if ( ! defined( 'CHARMED_VERSION' ) ) {
+	define( 'CHARMED_VERSION', '1.1.3' );
+}
 
 
 
@@ -31,15 +25,17 @@ define( 'BEAN_UPDATES', true );
  * If set the 'true', then serve standard theme files,
  * instead of minified .css and .js files.
  */
-define( 'CHARMED_DEBUG', false );
+if ( ! defined( 'CHARMED_DEBUG' ) ) {
+    define( 'CHARMED_DEBUG', false );
+}
 
 
 
 /**
- * Charmed only works in WordPress 4.2 or later.
+ * Charmed only works in WordPress 4.7 or later.
  */
-if ( version_compare( $GLOBALS['wp_version'], '4.2', '<' ) ) {
-	require get_template_directory() . '/inc/back-compat.php';
+if ( version_compare( $GLOBALS['wp_version'], '4.7', '<' ) ) {
+	require get_theme_file_path( '/inc/back-compat.php' );
 }
 
 
@@ -62,7 +58,7 @@ function charmed_setup() {
 	 * If you're building a theme based on Charmed, use a find and replace
 	 * to change 'charmed' to the name of your theme in all the template files
 	 */
-	load_theme_textdomain( 'charmed', get_template_directory() . '/languages' );
+	load_theme_textdomain( 'charmed', get_theme_file_path( '/languages' ) );
 	
 
 
@@ -215,7 +211,7 @@ add_action( 'widgets_init', 'charmed_widgets_init' );
 function charmed_javascript_detection() {
 	echo "<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>\n";
 }
-add_action( 'wp_head', 'charmed_javascript_detection', 0 );
+add_action( 'wp_enqueue_scripts', 'charmed_javascript_detection', 0 );
 
 
 
@@ -234,12 +230,12 @@ function charmed_scripts() {
 	 * 
 	 * @link https://codex.wordpress.org/WP_DEBUG
 	 */
-	if ( WP_DEBUG || SCRIPT_DEBUG || CHARMED_DEBUG ) {
+	if ( SCRIPT_DEBUG || CHARMED_DEBUG || is_child_theme() ) {
 		// Add the main stylesheet.
 		wp_enqueue_style( 'charmed-style', get_stylesheet_uri() );
 	} else {
 		// Add the main minified stylesheet.
-		wp_enqueue_style('charmed-minified-style', get_template_directory_uri(). '/style-min.css', false, '1.0', 'all');
+		wp_enqueue_style('charmed-style', get_theme_file_uri( '/style-min.css' ), false, '1.0', 'all');
 	}
 
 	// Load the standard WordPress comments reply javascript.
@@ -257,35 +253,35 @@ function charmed_scripts() {
 	/**
 	 * Now let's check the same for the scripts.
 	 */
-	if ( WP_DEBUG || SCRIPT_DEBUG || CHARMED_DEBUG || is_child_theme() ) {
+	if ( SCRIPT_DEBUG || CHARMED_DEBUG ) {
 
 		// Load the Picturefill script for serving retina images.
-		wp_enqueue_script( 'picturefill', get_template_directory_uri() . '/js/src/picturefill.js', array( 'jquery' ), CHARMED_VERSION, true );
+		wp_enqueue_script( 'picturefill', get_theme_file_uri( '/js/src/picturefill.js' ), array( 'jquery' ), CHARMED_VERSION, true );
 		
 		// Load the ImagesLoaded javascript.
-		wp_enqueue_script( 'imagesloaded', get_template_directory_uri() . '/js/src/images-loaded.js', array( 'jquery' ), CHARMED_VERSION, true );
+		wp_enqueue_script( 'imagesloaded', get_theme_file_uri( '/js/src/images-loaded.js' ), array( 'jquery' ), CHARMED_VERSION, true );
 
 		// Load the Isotope script for the masonry layout.
-		wp_enqueue_script( 'isotope', get_template_directory_uri() . '/js/src/isotope.js', array( 'jquery' ), CHARMED_VERSION, true );
+		wp_enqueue_script( 'isotope', get_theme_file_uri( '/js/src/isotope.js' ), array( 'jquery' ), CHARMED_VERSION, true );
 
 		// Load the Infinite Scroll javascript.
-		wp_enqueue_script( 'infinitescroll', get_template_directory_uri() . '/js/src/infinitescroll.js', array( 'jquery' ), CHARMED_VERSION, true );
+		wp_enqueue_script( 'infinitescroll', get_theme_file_uri( '/js/src/infinitescroll.js' ), array( 'jquery' ), CHARMED_VERSION, true );
 
 		// Load the NProgress progress bar loader javascript.
-		wp_enqueue_script( 'nprogress', get_template_directory_uri() . '/js/src/nprogress.js', array( 'jquery' ), CHARMED_VERSION, true );
+		wp_enqueue_script( 'nprogress', get_theme_file_uri( '/js/src/nprogress.js' ), array( 'jquery' ), CHARMED_VERSION, true );
 
 		// Load the FitVids responsive video javascript.
-		wp_enqueue_script( 'fitvids', get_template_directory_uri() . '/js/src/fitvids.js', array( 'jquery' ), CHARMED_VERSION, true );
+		wp_enqueue_script( 'fitvids', get_theme_file_uri( '/js/src/fitvids.js' ), array( 'jquery' ), CHARMED_VERSION, true );
 
 		// Load the custom theme javascript functions.
-		wp_enqueue_script( 'charmed-functions', get_template_directory_uri() . '/js/src/functions.js', array( 'jquery' ), CHARMED_VERSION, true );
+		wp_enqueue_script( 'charmed-functions', get_theme_file_uri( '/js/src/functions.js' ), array( 'jquery' ), CHARMED_VERSION, true );
 
 	} else {
 		// Load the combined javascript library.
-		wp_enqueue_script( 'charmed-combined-scripts', get_template_directory_uri() . '/js/combined-min.js', array(), CHARMED_VERSION, true );
+		wp_enqueue_script( 'charmed-combined-scripts', get_theme_file_uri( '/js/combined-min.js' ), array(), CHARMED_VERSION, true );
 		
 		// Load the minified javascript functions.
-		wp_enqueue_script( 'charmed-minified-functions', get_template_directory_uri() . '/js/functions-min.js', array( 'jquery' ), CHARMED_VERSION, true );
+		wp_enqueue_script( 'charmed-minified-functions', get_theme_file_uri( '/js/functions-min.js' ), array( 'jquery' ), CHARMED_VERSION, true );
 	}
 }
 add_action( 'wp_enqueue_scripts', 'charmed_scripts' );
@@ -318,6 +314,27 @@ function charmed_fonts_url() {
 	return $fonts_url;
 }
 endif;
+
+
+
+/**
+ * Add preconnect for Google Fonts.
+ *
+ * @param  array  $urls           URLs to print for resource hints.
+ * @param  string $relation_type  The relation type the URLs are printed.
+ * @return array  $urls           URLs to print for resource hints.
+ */
+function charmed_resource_hints( $urls, $relation_type ) {
+    if ( wp_style_is( 'charmed-fonts', 'queue' ) && 'preconnect' === $relation_type ) {
+        $urls[] = array(
+            'href' => 'https://fonts.gstatic.com',
+            'crossorigin',
+        );
+    }
+
+    return $urls;
+}
+add_filter( 'wp_resource_hints', 'charmed_resource_hints', 10, 2 );
 
 
 
@@ -421,46 +438,36 @@ endif;
 /**
  * Admin specific functions.
  */
-require get_template_directory() . '/inc/admin.php';
+require get_theme_file_path( '/inc/admin.php' );
 
 
 
 /**
  * Customizer additions.
  */
-require get_template_directory() . '/inc/customizer/customizer.php';
-require get_template_directory() . '/inc/customizer/customizer-css.php';
-require get_template_directory() . '/inc/customizer/sanitization.php';
+require get_theme_file_path( '/inc/customizer/customizer.php' );
+require get_theme_file_path( '/inc/customizer/customizer-css.php' );
+require get_theme_file_path( '/inc/customizer/sanitization.php' );
 
 
 
 /**
  * Custom template tags for this theme.
  */
-require get_template_directory() . '/inc/template-tags.php';
+require get_theme_file_path( '/inc/template-tags.php' );
 
 
 
 /**
  * Load Jetpack compatibility file.
  */
-require get_template_directory() . '/inc/jetpack.php';
+require get_theme_file_path( '/inc/jetpack.php' );
 
 
 
 /**
  * Add Widgets.
  */
-require get_template_directory() . '/inc/widgets/widget-flickr.php';
-require get_template_directory() . '/inc/widgets/widget-video.php';
-require get_template_directory() . '/inc/widgets/widget-portfolio-menu.php';
-
-
-
-/**
- * Theme Welcome Screen
- * @todo Add this welcome screen section.
- */
-// if ( is_admin() ) {
-// 	require get_template_directory() . '/inc/welcome/welcome-screen.php';
-// }
+require get_theme_file_path( '/inc/widgets/widget-flickr.php' );
+require get_theme_file_path( '/inc/widgets/widget-video.php' );
+require get_theme_file_path( '/inc/widgets/widget-portfolio-menu.php' );
