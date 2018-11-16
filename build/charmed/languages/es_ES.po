@@ -1,0 +1,619 @@
+# Copyright (C) 2015 ThemeBeans
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Charmed 1.0.0\n"
+"Report-Msgid-Bugs-To: http://themebeans.com/\n"
+"POT-Creation-Date: 2015-11-16 17:06-0300\n"
+"PO-Revision-Date: 2015-11-16 17:06-0300\n"
+"Last-Translator: Ricardo J Rodriguez <info@ricardojrodriguez.com.ar>\n"
+"Language-Team: WP-Translations <wpt@wp-translations.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oops! La página no existe."
+
+#: 404.php:21
+msgid "Go back"
+msgstr "Volver"
+
+#: 404.php:21
+msgid " or "
+msgstr "o"
+
+#: 404.php:21
+msgid "go home"
+msgstr "ir a Inicio"
+
+#: functions.php:135
+msgid "Primary Menu"
+msgstr "Menú Principal"
+
+#: functions.php:197
+msgid "Theme Sidebar"
+msgstr "Barra Lateral"
+
+#: functions.php:199
+msgid "Appears at the side, under the header."
+msgstr "Aparece al lado, debajo de la cabecera."
+
+#: functions.php:307
+msgctxt "Karla font: on or off"
+msgid "on"
+msgstr "sí"
+
+#: functions.php:378
+msgid "Password:"
+msgstr "Contraseña:"
+
+#: functions.php:378
+msgid "Enter password & press enter..."
+msgstr "Escriba la contraseña y presiona enter"
+
+#: functions.php:378
+msgid "Submit"
+msgstr "Enviar"
+
+#: header.php:79
+#, php-format
+msgid "Powered by %s"
+msgstr "Hecho por %s"
+
+#: header.php:83
+#, php-format
+msgid "A %s run site. Nice."
+msgstr "Un sitio con %s. Bien."
+
+#: inc/back-compat.php:33 inc/back-compat.php:43 inc/back-compat.php:56
+#, php-format
+msgid ""
+"Charmed requires at least WordPress version 4.2. You are running version %s. "
+"Please upgrade and try again."
+msgstr ""
+"Charmed requiere al menos la versión 4.2 de WordPress. Estás usando la "
+"versión %s. Por favor actualiza e intenta de nuevo."
+
+#: inc/customizer/customizer.php:39
+msgid "Theme Options"
+msgstr "Opciones del Theme"
+
+#: inc/customizer/customizer.php:40
+msgid ""
+"Customize various options throughout the theme with the settings within this "
+"panel."
+msgstr ""
+"Personaliza diversas opciones a lo largo del tema con los ajustes dentro de "
+"este panel."
+
+#: inc/customizer/customizer.php:59
+msgid "Portfolio"
+msgstr "Portfolio"
+
+#: inc/customizer/customizer.php:71 inc/meta/meta-portfolio.php:59
+#: inc/meta/meta-post.php:59
+msgid "Portfolio Settings"
+msgstr "Ajustes del Portfolio"
+
+#: inc/customizer/customizer.php:72
+#, php-format
+msgid ""
+"<a target=\"_blank\" href=\"%1$s\" class=\"button button-secondary\">Get "
+"Access to Portfolio Settings</a>"
+msgstr ""
+"<a target=\"_blank\" href=\"%1$s\" class=\"button button-secondary\">Acceda "
+"a los ajustes del Portfolio</a>"
+
+#: inc/customizer/customizer.php:74
+msgid ""
+"<p>Customize your online portfolio with options to add portfolio sorting, "
+"display a portfolio loop on the single view, and activate gallery lazy "
+"loading and serve a lightbox gallery.</p><ul><li>Portfolio Sorting</"
+"li><li>Lazy Loading Images</li><li>Photoswipe Lightbox Gallery</"
+"li><li>Single Portfolio Loop</li></ul>"
+msgstr ""
+"<p>Personaliza tu portfolio on-line con opciones para ordenar, mostrar un "
+"loop de portfolio en la vista única, y activar la galería de carga lenta y "
+"un lightbox. </p><ul><li>Portfolio sorting</li><li>Lazy Load</"
+"li><li>Photoswipe Lightbox</li><li>Loop en entrada individual</li> </ul>"
+
+#: inc/customizer/customizer.php:84
+msgid "Call to Action"
+msgstr "Llamado a la acción"
+
+#: inc/customizer/customizer.php:96
+msgid "Call to Action Settings"
+msgstr "Ajustes de Llamado a la acción"
+
+#: inc/customizer/customizer.php:97
+#, php-format
+msgid ""
+"<a target=\"_blank\" href=\"%1$s\" class=\"button button-secondary\">Get "
+"Access to Call to Action Settings</a>"
+msgstr ""
+"<a target=\"_blank\" href=\"%1$s\" class=\"button button-secondary\">Acceda "
+"a los ajustes del Llamado a la acción</a>"
+
+#: inc/customizer/customizer.php:99
+msgid ""
+"<p>Add a call to action <em>(ex: \"Hire Me\")</em> to the single portfolio "
+"view that opens up a contact lead-generation form designed to get you "
+"clients.</p><p>Also input a custom email address that messages will be sent "
+"to and add your own pre-set subject lines.</p><ul><li>Beautiful CTA</"
+"li><li>Customize the CTA Button Text</li><li>Lead Generation Form</"
+"li><li>Custom Subject Lines</li><li>Custom Send-to Email Address</li></ul>"
+msgstr ""
+"<p>Agregue un llamado a la acción <em>(ej: “Contrátame”)</em> a la vista "
+"singular del portfolio que abre un formulario de contacto para conseguir "
+"clientes.</p><p>También introduce una dirección de correo electrónico "
+"personalizado a donde se enviarán los mensajes y añadir su propio asunto.</"
+"p><ul><li>Llamado a la Acción</li><li>Texto personalizado del botón de "
+"Acción</li><li>Formulario</li><li>Asuntos personalizados</li><li>Email de "
+"destino personalizado</li></ul>"
+
+#: inc/customizer/customizer.php:109
+msgid "Contact"
+msgstr "Contacto"
+
+#: inc/customizer/customizer.php:120
+msgid "Email Address"
+msgstr "Dirección de email"
+
+#: inc/customizer/customizer.php:121
+msgid "Enter the email address you would like the contact form to send to."
+msgstr "Ingrese el email a donde desea que el formulario envíe los datos."
+
+#: inc/customizer/customizer.php:133
+msgid "Contact Button"
+msgstr "Botón de contacto"
+
+#: inc/customizer/customizer.php:134
+msgid "Enter the text of the contact form button."
+msgstr "Ingrese el texto del botón de contacto del formulario."
+
+#: inc/customizer/customizer.php:144
+msgid "Footer"
+msgstr "Pie"
+
+#: inc/customizer/customizer.php:156
+msgid "Powered by Charmed"
+msgstr "Hecho con Charmed"
+
+#: inc/customizer/customizer.php:168
+msgid "A WordPress run site. Nice."
+msgstr "Un sitio de WordPress. Bien."
+
+#: inc/customizer/customizer.php:179
+msgid "Typography"
+msgstr "Tipografía"
+
+#: inc/customizer/customizer.php:191
+msgid "Typography Settings"
+msgstr "Ajustes de tipografía"
+
+#: inc/customizer/customizer.php:192
+#, php-format
+msgid ""
+"<a target=\"_blank\" href=\"%1$s\" class=\"button button-secondary\">Get "
+"Access to Typography Settings</a>"
+msgstr ""
+"<a target=\"_blank\" href=\"%1$s\" class=\"button button-secondary\">Acceda "
+"a los ajustes de tipografía</a>"
+
+#: inc/customizer/customizer.php:194
+msgid ""
+"<p>You'll have access to 500+ Google Fonts along with font size, line "
+"height, letter spacing, and word spacing settings for each section:</"
+"p><ul><li>Body</li><li>Page Titles</li><li>Page Content</li></ul>"
+msgstr ""
+"<p>Tendrá acceso a más de 500 fuentes de Google Fonts, donde podrá modificar "
+"tamaños, interlíneas, espaciado entre letras y palabras para cada sección: </"
+"p><ul><li>Body</li><li>Títulos de páginas</li><li>Contenidos de páginas</"
+"li></ul>"
+
+#: inc/customizer/customizer.php:204
+msgid "Colors"
+msgstr "Colores"
+
+#: inc/customizer/customizer.php:216
+msgid "Accent Color"
+msgstr "Color de acento"
+
+#: inc/customizer/customizer.php:228
+msgid "Advanced Color Settings"
+msgstr "Ajustes avanzados de color"
+
+#: inc/customizer/customizer.php:229
+#, php-format
+msgid ""
+"<a target=\"_blank\" href=\"%1$s\" class=\"button button-secondary\">Get "
+"Access to More Color Settings</a>"
+msgstr ""
+"<a target=\"_blank\" href=\"%1$s\" class=\"button button-secondary\">Obtenga "
+"acceso a más ajustes de Color</a>"
+
+#: inc/customizer/customizer.php:231
+msgid ""
+"<p>Fine tune your site design with a number of color customization options "
+"for each section of the theme:</p><ul><li>Backgrounds</li><li>Accent Colors</"
+"li><li>Typography</li><li>Links</li><li>Headers</li><li>CSS3 Black/White "
+"Post Filter</li></ul>"
+msgstr ""
+"<p>Refine su diseño con opciones de personalización de color para cada "
+"sección del theme:</p><ul><li>Backgrounds</li><li>Colores principales</"
+"li><li>Tipografía</li><li>Links</li><li>Encabezados</li><li>Filtros CSS3 "
+"Black/White</li></ul>"
+
+#: inc/customizer/customizer.php:252
+msgid "Site logo"
+msgstr "Logo"
+
+#: inc/customizer/customizer.php:253
+msgid "Upload a logo to replace the default site name."
+msgstr "Suba un logo para reemplazar el nombre del sitio predeterminado."
+
+#: inc/meta/meta-portfolio.php:26 inc/meta/meta-post.php:26
+msgid "Portfolio Format"
+msgstr "Formato de Portfolio"
+
+#: inc/meta/meta-portfolio.php:33 inc/meta/meta-post.php:33
+msgid "Gallery"
+msgstr "Galería"
+
+#: inc/meta/meta-portfolio.php:40 inc/meta/meta-post.php:40
+msgid "Video"
+msgstr "Video"
+
+#: inc/meta/meta-portfolio.php:66 inc/meta/meta-post.php:66
+msgid "Gallery Images:"
+msgstr "Imágenes de la galería:"
+
+#: inc/meta/meta-portfolio.php:67 inc/meta/meta-post.php:67
+msgid "Upload, reorder and caption the post gallery."
+msgstr "Suba, ordene y describa la galería de la entrada."
+
+#: inc/meta/meta-portfolio.php:70 inc/meta/meta-post.php:70
+msgid "Browse & Upload"
+msgstr "Explorar y Subir"
+
+#: inc/meta/meta-portfolio.php:73 inc/meta/meta-post.php:73
+msgid "Date:"
+msgstr "Fecha:"
+
+#: inc/meta/meta-portfolio.php:76 inc/meta/meta-post.php:76
+msgid "Display the date."
+msgstr "Muestra la fecha."
+
+#: inc/meta/meta-portfolio.php:80 inc/meta/meta-post.php:80
+msgid "Views:"
+msgstr "Vistas:"
+
+#: inc/meta/meta-portfolio.php:83 inc/meta/meta-post.php:83
+msgid "Display the view count."
+msgstr "Muestra el conteo de vistas."
+
+#: inc/meta/meta-portfolio.php:87 inc/meta/meta-post.php:87
+msgid "Categories:"
+msgstr "Categorías:"
+
+#: inc/meta/meta-portfolio.php:90 inc/meta/meta-post.php:90
+msgid "Display the portfolio categories."
+msgstr "Muestra las categorías del portfolio."
+
+#: inc/meta/meta-portfolio.php:94 inc/meta/meta-post.php:94
+msgid "Tags:"
+msgstr "Etiquetas:"
+
+#: inc/meta/meta-portfolio.php:97 inc/meta/meta-post.php:97
+msgid "Display the portfolio tags."
+msgstr "Muestra las etiquetas del portfolio"
+
+#: inc/meta/meta-portfolio.php:101 inc/meta/meta-post.php:101
+msgid "Role:"
+msgstr "Rol:"
+
+#: inc/meta/meta-portfolio.php:102 inc/meta/meta-post.php:102
+msgid "Display the role."
+msgstr "Muestra el rol"
+
+#: inc/meta/meta-portfolio.php:108 inc/meta/meta-post.php:108
+msgid "Client:"
+msgstr "Cliente:"
+
+#: inc/meta/meta-portfolio.php:109 inc/meta/meta-post.php:109
+msgid "Display the client meta."
+msgstr "Muestra información del cliente."
+
+#: inc/meta/meta-portfolio.php:115 inc/meta/meta-post.php:115
+msgid "URL:"
+msgstr "URL:"
+
+#: inc/meta/meta-portfolio.php:116 inc/meta/meta-post.php:116
+msgid "Display a URL to link to."
+msgstr "Muestra el enlace"
+
+#: inc/meta/meta-portfolio.php:122 inc/meta/meta-post.php:122
+msgid "External URL:"
+msgstr "URL externa:"
+
+#: inc/meta/meta-portfolio.php:123 inc/meta/meta-post.php:123
+msgid ""
+"Link this portfolio post to an external URL. For example, link this post to "
+"your Behance portfolio post."
+msgstr ""
+"Enlace este proyecto de portfolio a un enlace externo. Por ejemplo, a un "
+"proyecto en Behance."
+
+#: inc/meta/meta-portfolio.php:140 inc/meta/meta-post.php:140
+msgid "Video Settings"
+msgstr "Ajustes de video"
+
+#: inc/meta/meta-portfolio.php:146 inc/meta/meta-post.php:146
+msgid "Embed 1:"
+msgstr "Código Embed 1:"
+
+#: inc/meta/meta-portfolio.php:147 inc/meta/meta-portfolio.php:154
+#: inc/meta/meta-portfolio.php:161 inc/meta/meta-portfolio.php:168
+#: inc/meta/meta-post.php:147 inc/meta/meta-post.php:154
+#: inc/meta/meta-post.php:161 inc/meta/meta-post.php:168
+msgid "Insert your embeded code here."
+msgstr "Coloque el código embebed aquí."
+
+#: inc/meta/meta-portfolio.php:153 inc/meta/meta-post.php:153
+msgid "Embed 2:"
+msgstr "Código Embed 2:"
+
+#: inc/meta/meta-portfolio.php:160 inc/meta/meta-post.php:160
+msgid "Embed 3:"
+msgstr "Código Embed 3:"
+
+#: inc/meta/meta-portfolio.php:167 inc/meta/meta-post.php:167
+msgid "Embed 4:"
+msgstr "Código Embed 4:"
+
+#: inc/meta/meta-portfolio.php:174 inc/meta/meta-post.php:174
+msgid "Video Shortcodes:"
+msgstr "Shortcodes de video:"
+
+#: inc/meta/meta-portfolio.php:175 inc/meta/meta-post.php:175
+msgid ""
+"Insert any <a target=\"blank\" href=\"https://codex.wordpress.org/"
+"Video_Shortcode\">video shortcodes</a> here."
+msgstr ""
+"Coloque cualquier <a target=\"blank\" href=\"https://codex.wordpress.org/"
+"Video_Shortcode\">shortcode de video</a> aquí."
+
+#: inc/meta/metaboxes.php:75 inc/meta/metaboxes.php:123
+msgid "Insert"
+msgstr "Insertar"
+
+#: inc/meta/metaboxes.php:129 inc/meta/metaboxes.php:245
+msgid "Saving..."
+msgstr "Guardando…"
+
+#: inc/meta/metaboxes.php:185
+msgid "Create Gallery"
+msgstr "Crear galería"
+
+#: inc/meta/metaboxes.php:192 inc/meta/metaboxes.php:199
+#: inc/meta/metaboxes.php:308 inc/meta/metaboxes.php:310
+msgid "Edit Gallery"
+msgstr "Editar galería"
+
+#: inc/meta/metaboxes.php:198
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: inc/meta/metaboxes.php:235
+msgid "Save Gallery"
+msgstr "Guardar galería"
+
+#: inc/meta/metaboxes.php:379
+msgid "Yes, please do"
+msgstr "Sí, por favor."
+
+#: inc/upgrade/upgrade.php:45
+#, php-format
+msgid ""
+"Thanks for choosing %1$s! Did you know that there's a \"Pro\" version of "
+"%1$s with some astonishingly neat features? %2$sClick here to learn more "
+"about %1$s Pro &rarr;%2$s"
+msgstr ""
+"¡Gracias por elegir %1$s! ¿Sabía que existe una versión Pro de %1$s con "
+"algunas funcionalidades extras? %2$s Presione aquí para conocer más sobre  "
+"%1$s Pro &rarr;%2$s"
+
+#: inc/upgrade/upgrade.php:89
+#, php-format
+msgid ""
+"<a href=\"%1$s\" target=\"_blank\">Learn more about %2$s Pro</a> or <a href="
+"\"%3$s\" target=\"_blank\">upgrade your theme now</a>."
+msgstr ""
+"<a href=\"%1$s\" target=\"_blank\">Aprenda más sobre %2$s Pro</a> o <a href="
+"\"%3$s\" target=\"_blank\">actualice su tema ahora</a>."
+
+#: inc/upgrade/upgrade.php:114
+msgid "Upgrade to "
+msgstr "Actualizar a"
+
+#: inc/upgrade/upgrade.php:115 inc/upgrade/upgrade.php:127
+msgid "Pro"
+msgstr "Pro"
+
+#: inc/widgets/widget-flickr.php:15
+msgid "Flickr Photos"
+msgstr "Photos de Flickr"
+
+#: inc/widgets/widget-flickr.php:16
+msgid "Add a Flickr feed widget."
+msgstr "Agregar un widget de Flickr"
+
+#: inc/widgets/widget-flickr.php:104
+msgid "Title / Intro:"
+msgstr "Título / Introducción:"
+
+#: inc/widgets/widget-flickr.php:113
+msgid "Flickr ID:"
+msgstr "ID de Flickr:"
+
+#: inc/widgets/widget-flickr.php:118
+msgid "Type:"
+msgstr "Tipo:"
+
+#: inc/widgets/widget-flickr.php:126
+msgid "Display:"
+msgstr "Mostrar:"
+
+#: inc/widgets/widget-portfolio-menu.php:15
+msgid "Portfolio Menu"
+msgstr "Menú de portfolio"
+
+#: inc/widgets/widget-portfolio-menu.php:16
+msgid "A custom loop of portfolio posts."
+msgstr "Loop de portfolio:"
+
+#: inc/widgets/widget-portfolio-menu.php:69
+#, php-format
+msgid "Permanent Link to %s"
+msgstr "Enlace permanente a %s"
+
+#: inc/widgets/widget-portfolio-menu.php:113
+msgid ""
+"Please download & install the <b>Bean Portfolio</b> WordPress plugin to "
+"properly display this widget."
+msgstr ""
+"Por favor descargue e instale el plugin <b>Bean Portfolio</b> para mostrar "
+"adecuadamente este widget."
+
+#: inc/widgets/widget-portfolio-menu.php:114
+msgid "Bean Portfolio &rarr;"
+msgstr "Bean Portfolio &rarr;"
+
+#: inc/widgets/widget-portfolio-menu.php:119 inc/widgets/widget-video.php:73
+msgid "Title:"
+msgstr "Título:"
+
+#: inc/widgets/widget-portfolio-menu.php:128
+msgid "Number of Posts: (-1 for Infinite)"
+msgstr "Cantidad de entradas: (-1 para infinito)"
+
+#: inc/widgets/widget-portfolio-menu.php:133
+msgid "Portfolio Loop:"
+msgstr "Loop de portfolio:"
+
+#: inc/widgets/widget-video.php:15
+msgid "Embedded Video"
+msgstr "Insertar video"
+
+#: inc/widgets/widget-video.php:16
+msgid "Displays embedded video content."
+msgstr "Muestra el contenido de un video embebido."
+
+#: inc/widgets/widget-video.php:82
+msgid "Video Embed Code:"
+msgstr "Código de video embebido"
+
+#: template-parts/contact-form.php:66
+msgid "Your message was sent. Thanks."
+msgstr "Su mensaje fue enviado. Gracias."
+
+#: template-parts/contact-form.php:74
+msgid "An error occured. Try again."
+msgstr "Ocurrió un error. Pruebe de nuevo"
+
+#: template-parts/contact-form.php:84
+msgid "Name "
+msgstr "Nombre "
+
+#: template-parts/contact-form.php:90
+msgid "Email "
+msgstr "Email "
+
+#: template-parts/contact-form.php:96
+msgid "Message "
+msgstr "Mensaje "
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Nada encontrado"
+
+#: template-parts/content-page.php:25
+msgid "Pages:"
+msgstr "Páginas:"
+
+#: template-parts/content-page.php:29
+msgid "Page"
+msgstr "Página"
+
+#: template-parts/portfolio-filter.php:21
+msgid "Tags"
+msgstr "Etiquetas"
+
+#: template-parts/portfolio-filter.php:25
+msgid "All"
+msgstr "Todo"
+
+#: template-parts/portfolio-meta.php:41
+msgid "Date: "
+msgstr "Fecha: "
+
+#: template-parts/portfolio-meta.php:47
+msgid "Role: "
+msgstr "Rol: "
+
+#: template-parts/portfolio-meta.php:53
+msgid "Client: "
+msgstr "Cliente: "
+
+#: template-parts/portfolio-meta.php:66
+msgid "URL: "
+msgstr "URL: "
+
+#: template-parts/portfolio-meta.php:72
+msgid "Views: "
+msgstr "Vistas: "
+
+#~ msgid "Charmed"
+#~ msgstr "Charmed"
+
+#~ msgid "http://demo.themebeans.com/charmed"
+#~ msgstr "http://demo.themebeans.com/charmed"
+
+#~ msgid ""
+#~ "Charmed is a handsome theme built to power websites for creative "
+#~ "agencies, freelancers, artists, designers, photographers and those who "
+#~ "love to create. Featuring a purposeful, responsive design and a fully-"
+#~ "featured portfolio, you can get a professional portfolio website up and "
+#~ "running effortlessly, with  zero coding needed. Charmed will make your "
+#~ "portfolio brillaint look fantasic."
+#~ msgstr ""
+#~ "Charmed es un theme hermoso construido para sitios web agencias "
+#~ "creativas, profesionales independientes, artistas, diseñadores, "
+#~ "fotógrafos y para los que les encanta crear. Con un diseño adaptable y un "
+#~ "Portfolio con todas las funciones, puede tener un portfolio profesional "
+#~ "en marcha yfuncionando sin esfuerzo, sin necesidad de escribir código . "
+#~ "Charmed hará que su portfolio luzca fantástico."
+
+#~ msgid "ThemeBeans"
+#~ msgstr "ThemeBeans"
+
+#~ msgid "http://themebeans.com"
+#~ msgstr "http://themebeans.com"
+
+#~ msgid "Archive"
+#~ msgstr "Archivo"
+
+#~ msgid "Site Map"
+#~ msgstr "Mapa del sitio"

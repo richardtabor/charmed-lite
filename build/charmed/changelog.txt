@@ -1,0 +1,52 @@
+** Charmed Changelog **
+
+08 July 2016 - Version 1.1.3
+     * Fixed portfolio template view
+
+07 July 2016 - Version 1.1.2
+     * Removed contact form
+     * Added portfolio archive post type variable
+     * Updated feedback module
+     * Updated languages
+
+18 April 2016 - Version 1.1.1
+     * Child functionality update
+
+13 April 2016 - Version 1.1.0
+     * WordPress 4.5 updates
+     * General performance improvements
+     * Updated languages
+
+15 February 2016 - Version 1.0.5
+     * Updated feedback class
+     * Updated charmed_retina_logo template tag
+     * Improved retina logo support 
+     * Improved retina Jetpack logo support
+     * Updated languages
+
+02 February 2016 - Version 1.0.4
+     * Loading Animation update
+        - Fixed back button functionality in Safari 
+
+16 January 2016 - Version 1.0.3
+     * Removed contact template
+
+27 December 2015 - Version 1.0.2
+     * Added feedback class
+     	- admin.php
+     	- feedback.php
+    * Updated child theme stylesheet enqueue
+		- functions.php
+	* Updated portfolio meta style
+		- style.css
+		- style-min.css		
+     * Updated languages
+
+17 November 2015 - Version 1.0.1
+     * Hola! Added Spanish translation
+     	- Gracious Richard J. Rodriguez!
+	* Fixed customizer typo 
+		-/inc/customizer/customizer.php
+
+10 November 2015 - Version 1.0.0
+     * Initial release
